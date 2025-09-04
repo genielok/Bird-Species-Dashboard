@@ -8,6 +8,7 @@ import BarChart from './components/barChart';
 import { loadCSV, ModelSpeciesData, PanelInfoList } from './const';
 
 // import Sunburst from './components/sunburst';
+
 import './index.css'
 import styles from './styles.module.css';
 
