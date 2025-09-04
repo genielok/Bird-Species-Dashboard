@@ -1,0 +1,8 @@
+
+.info-container{
+     background-color: #242424;
+     position:'absolute';
+}
+.hover-scale:hover {
+  transform: scale(1.05); /* 放大 5% */
+}

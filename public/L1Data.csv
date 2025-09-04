@@ -1,0 +1,697 @@
+species,Common Name,Threat Status,Original Map Link,Family
+Rhea americana,Greater Rhea,NT,https://mol.org/species/map/Rhea americana,Rheidae
+Crypturellus obsoletus,Brown Tinamou,LC,https://mol.org/species/map/Crypturellus obsoletus,Tinamidae
+Crypturellus tataupa,Tataupa Tinamou,LC,https://mol.org/species/map/Crypturellus tataupa,Tinamidae
+Tinamus solitarius,Solitary Tinamou,NT,https://mol.org/species/map/Tinamus solitarius,Tinamidae
+Nothura minor,Lesser Nothura,VU,https://mol.org/species/map/Nothura minor,Tinamidae
+Rhynchotus rufescens,Red-Winged Tinamou,LC,https://mol.org/species/map/Rhynchotus rufescens,Tinamidae
+Crypturellus noctivagus,Yellow-Legged Tinamou,NT,https://mol.org/species/map/Crypturellus noctivagus,Tinamidae
+Nothura maculosa,Spotted Nothura,LC,https://mol.org/species/map/Nothura maculosa,Tinamidae
+Crypturellus parvirostris,Small-Billed Tinamou,LC,https://mol.org/species/map/Crypturellus parvirostris,Tinamidae
+Crypturellus soui,Little Tinamou,LC,https://mol.org/species/map/Crypturellus soui,Tinamidae
+Anhima cornuta,Horned Screamer,LC,https://mol.org/species/map/Anhima cornuta,Anhimidae
+Sarkidiornis melanotos,Comb Duck,LC,https://mol.org/species/map/Sarkidiornis melanotos,Anatidae
+Nomonyx dominicus,Masked Duck,LC,https://mol.org/species/map/Nomonyx dominicus,Anatidae
+Anser anser,Greylag Goose,LC,https://mol.org/species/map/Anser anser,Anatidae
+Amazonetta brasiliensis,Brazilian Teal,LC,https://mol.org/species/map/Amazonetta brasiliensis,Anatidae
+Mergus octosetaceus,Brazilian Merganser,CR,https://mol.org/species/map/Mergus octosetaceus,Anatidae
+Cairina moschata,Muscovy Duck,LC,https://mol.org/species/map/Cairina moschata,Anatidae
+Netta erythrophthalma,Southern Pochard,LC,https://mol.org/species/map/Netta erythrophthalma,Anatidae
+Dendrocygna viduata,White-Faced Whistling Duck,LC,https://mol.org/species/map/Dendrocygna viduata,Anatidae
+Dendrocygna autumnalis,Black-Bellied Whistling-Duck,LC,https://mol.org/species/map/Dendrocygna autumnalis,Anatidae
+Crax blumenbachii,Red-Billed Curassow,EN,https://mol.org/species/map/Crax blumenbachii,Cracidae
+Penelope superciliaris,Rusty-Margined Guan,NT,https://mol.org/species/map/Penelope superciliaris,Cracidae
+Penelope obscura,Dusky-Legged Guan,LC,https://mol.org/species/map/Penelope obscura,Cracidae
+Pipile jacutinga,Black Fronted Piping Guan,EN,https://mol.org/species/map/Pipile jacutinga,Cracidae
+Odontophorus capueira,Spot-Winged Wood-Quail,LC,https://mol.org/species/map/Odontophorus capueira,Odontophoridae
+Tachybaptus dominicus,Short-Billed Grebe,LC,https://mol.org/species/map/Tachybaptus dominicus,Podicipedidae
+Podilymbus podiceps,Pied-Billed Grebe,LC,https://mol.org/species/map/Podilymbus podiceps,Podicipedidae
+Jabiru mycteria,Jabiru,LC,https://mol.org/species/map/Jabiru mycteria,Ciconiidae
+Mycteria americana,Wood Stork,LC,https://mol.org/species/map/Mycteria americana,Ciconiidae
+Anhinga anhinga,American Darter,LC,https://mol.org/species/map/Anhinga anhinga,Anhingidae
+Nycticorax nycticorax,Black-Crowned Night-Heron,LC,https://mol.org/species/map/Nycticorax nycticorax,Ardeidae
+Ardea alba,Great Egret,LC,https://mol.org/species/map/Ardea alba,Ardeidae
+Ardea cocoi,Cocoi Heron,LC,https://mol.org/species/map/Ardea cocoi,Ardeidae
+Syrigma sibilatrix,Whistling Heron,LC,https://mol.org/species/map/Syrigma sibilatrix,Ardeidae
+Bubulcus ibis,Cattle Egret,LC,https://mol.org/species/map/Bubulcus ibis,Ardeidae
+Pilherodius pileatus,Capped Heron,LC,https://mol.org/species/map/Pilherodius pileatus,Ardeidae
+Butorides striata,Green-Backed Heron,LC,https://mol.org/species/map/Butorides striata,Ardeidae
+Cochlearius cochlearius,Boat-Billed Heron,LC,https://mol.org/species/map/Cochlearius cochlearius,Ardeidae
+Egretta thula,Snowy Egret,LC,https://mol.org/species/map/Egretta thula,Ardeidae
+Tigrisoma lineatum,Rufescent Tiger-Heron,LC,https://mol.org/species/map/Tigrisoma lineatum,Ardeidae
+Phimosus infuscatus,Bare-Faced Ibis,LC,https://mol.org/species/map/Phimosus infuscatus,Threskiornithidae
+Platalea ajaja,Roseate Spoonbill,LC,https://mol.org/species/map/Platalea ajaja,Threskiornithidae
+Plegadis chihi,White-Faced Ibis,LC,https://mol.org/species/map/Plegadis chihi,Threskiornithidae
+Theristicus caudatus,Buff-Necked Ibis,LC,https://mol.org/species/map/Theristicus caudatus,Threskiornithidae
+Mesembrinibis cayennensis,Green Ibis,LC,https://mol.org/species/map/Mesembrinibis cayennensis,Threskiornithidae
+Coragyps atratus,Black Vulture,LC,https://mol.org/species/map/Coragyps atratus,Cathartidae
+Sarcoramphus papa,King Vulture,LC,https://mol.org/species/map/Sarcoramphus papa,Cathartidae
+Cathartes burrovianus,Lesser Yellow-Headed Vulture,LC,https://mol.org/species/map/Cathartes burrovianus,Cathartidae
+Cathartes aura,Turkey Vulture,LC,https://mol.org/species/map/Cathartes aura,Cathartidae
+Pandion haliaetus,Osprey,LC,https://mol.org/species/map/Pandion haliaetus,Pandionidae
+Accipiter striatus,Plain-Breasted Hawk,LC,https://mol.org/species/map/Accipiter striatus,Accipitridae
+Elanoides forficatus,Swallow-Tailed Kite,LC,https://mol.org/species/map/Elanoides forficatus,Accipitridae
+Elanus leucurus,White-Tailed Kite,LC,https://mol.org/species/map/Elanus leucurus,Accipitridae
+Harpia harpyja,Harpy Eagle,VU,https://mol.org/species/map/Harpia harpyja,Accipitridae
+Spizaetus melanoleucus,Black And White Hawk Eagle,LC,https://mol.org/species/map/Spizaetus melanoleucus,Accipitridae
+Spizaetus ornatus,Ornate Hawk-Eagle,NT,https://mol.org/species/map/Spizaetus ornatus,Accipitridae
+Spizaetus tyrannus,Black Hawk-Eagle,LC,https://mol.org/species/map/Spizaetus tyrannus,Accipitridae
+Harpagus diodon,Rufous-Thighed Kite,LC,https://mol.org/species/map/Harpagus diodon,Accipitridae
+Buteogallus urubitinga,Great Black-Hawk,LC,https://mol.org/species/map/Buteogallus urubitinga,Accipitridae
+Buteogallus meridionalis,Savanna Hawk,LC,https://mol.org/species/map/Buteogallus meridionalis,Accipitridae
+Parabuteo unicinctus,Harris' Hawk,LC,https://mol.org/species/map/Parabuteo unicinctus,Accipitridae
+Buteogallus coronatus,,EN,https://mol.org/species/map/Buteogallus coronatus,Accipitridae
+Pseudastur polionotus,,NT,https://mol.org/species/map/Pseudastur polionotus,Accipitridae
+Buteo brachyurus,Short-Tailed Hawk,LC,https://mol.org/species/map/Buteo brachyurus,Accipitridae
+Buteo albonotatus,Zone-Tailed Hawk,LC,https://mol.org/species/map/Buteo albonotatus,Accipitridae
+Circus buffoni,Long-Winged Harrier,LC,https://mol.org/species/map/Circus buffoni,Accipitridae
+Busarellus nigricollis,Black-Collared Hawk,LC,https://mol.org/species/map/Busarellus nigricollis,Accipitridae
+Geranospiza caerulescens,Crane Hawk,LC,https://mol.org/species/map/Geranospiza caerulescens,Accipitridae
+Geranoaetus melanoleucus,Black-Chested Buzzard-Eagle,LC,https://mol.org/species/map/Geranoaetus melanoleucus,Accipitridae
+Geranoaetus albicaudatus,,LC,https://mol.org/species/map/Geranoaetus albicaudatus,Accipitridae
+Rupornis magnirostris,,LC,https://mol.org/species/map/Rupornis magnirostris,Accipitridae
+Gampsonyx swainsonii,Pearl Kite,LC,https://mol.org/species/map/Gampsonyx swainsonii,Accipitridae
+Accipiter poliogaster,Grey-Bellied Goshawk,NT,https://mol.org/species/map/Accipiter poliogaster,Accipitridae
+Accipiter erythropus,Red-Thighed Sparrowhawk,LC,https://mol.org/species/map/Accipiter erythropus,Accipitridae
+Ictinia plumbea,Plumbeous Kite,LC,https://mol.org/species/map/Ictinia plumbea,Accipitridae
+Leptodon cayanensis,White-Collared Kite,LC,https://mol.org/species/map/Leptodon cayanensis,Accipitridae
+Accipiter superciliosus,Tiny Hawk,LC,https://mol.org/species/map/Accipiter superciliosus,Accipitridae
+Accipiter bicolor,Bicoloured Hawk,LC,https://mol.org/species/map/Accipiter bicolor,Accipitridae
+Rostrhamus sociabilis,Everglade Kite,LC,https://mol.org/species/map/Rostrhamus sociabilis,Accipitridae
+Pardirallus nigricans,Blackish Rail,LC,https://mol.org/species/map/Pardirallus nigricans,Rallidae
+Laterallus leucopyrrhus,Red-And-White Crake,LC,https://mol.org/species/map/Laterallus leucopyrrhus,Rallidae
+Laterallus melanophaius,Rufous-Sided Crake,LC,https://mol.org/species/map/Laterallus melanophaius,Rallidae
+Laterallus xenopterus,Rufous-Faced Crake,VU,https://mol.org/species/map/Laterallus xenopterus,Rallidae
+Mustelirallus albicollis,,LC,https://mol.org/species/map/Mustelirallus albicollis,Rallidae
+Porphyrio flavirostris,Azure Gallinule,LC,https://mol.org/species/map/Porphyrio flavirostris,Rallidae
+Porphyrio martinica,Purple Gallinule,LC,https://mol.org/species/map/Porphyrio martinica,Rallidae
+Aramides ypecaha,Giant Wood-Rail,LC,https://mol.org/species/map/Aramides ypecaha,Rallidae
+Aramides saracura,Slaty-Breasted Wood-Rail,LC,https://mol.org/species/map/Aramides saracura,Rallidae
+Aramides cajaneus,Grey Necked Wood Rail,LC,https://mol.org/species/map/Aramides cajaneus,Rallidae
+Gallinula galeata,Common Gallinule,LC,https://mol.org/species/map/Gallinula galeata,Rallidae
+Micropygia schomburgkii,Ocellated Crake,LC,https://mol.org/species/map/Micropygia schomburgkii,Rallidae
+Gallinula chloropus,Common Moorhen,LC,https://mol.org/species/map/Gallinula chloropus,Rallidae
+Pardirallus maculatus,Spotted Rail,LC,https://mol.org/species/map/Pardirallus maculatus,Rallidae
+Aramus guarauna,Limpkin,LC,https://mol.org/species/map/Aramus guarauna,Aramidae
+Himantopus mexicanus,Black-Necked Stilt,LC,https://mol.org/species/map/Himantopus mexicanus,Recurvirostridae
+Himantopus himantopus,Black-Winged Stilt,LC,https://mol.org/species/map/Himantopus himantopus,Recurvirostridae
+Vanellus chilensis,Southern Lapwing,LC,https://mol.org/species/map/Vanellus chilensis,Charadriidae
+Pluvialis dominica,American Golden-Plover,LC,https://mol.org/species/map/Pluvialis dominica,Charadriidae
+Vanellus cayanus,Pied Lapwing,LC,https://mol.org/species/map/Vanellus cayanus,Charadriidae
+Charadrius collaris,Collared Plover,LC,https://mol.org/species/map/Charadrius collaris,Charadriidae
+Jacana jacana,Wattled Jacana,LC,https://mol.org/species/map/Jacana jacana,Jacanidae
+Gallinago paraguaiae,Magellan Snipe,LC,https://mol.org/species/map/Gallinago paraguaiae,Scolopacidae
+Tringa melanoleuca,Greater Yellowlegs,LC,https://mol.org/species/map/Tringa melanoleuca,Scolopacidae
+Tringa flavipes,Lesser Yellow-Legs,LC,https://mol.org/species/map/Tringa flavipes,Scolopacidae
+Calidris fuscicollis,White-Rumped Sandpiper,LC,https://mol.org/species/map/Calidris fuscicollis,Scolopacidae
+Tringa solitaria,Solitary Sandpiper,LC,https://mol.org/species/map/Tringa solitaria,Scolopacidae
+Gallinago undulata,Giant Snipe,LC,https://mol.org/species/map/Gallinago undulata,Scolopacidae
+Actitis macularius,Spotted Sandpiper,LC,https://mol.org/species/map/Actitis macularius,Scolopacidae
+Rynchops niger,Black Skimmer,LC,https://mol.org/species/map/Rynchops niger,Laridae
+Phaetusa simplex,Large-Billed Tern,LC,https://mol.org/species/map/Phaetusa simplex,Laridae
+Patagioenas plumbea,Plumbeous Pigeon,LC,https://mol.org/species/map/Patagioenas plumbea,Columbidae
+Claravis pretiosa,Blue Ground-Dove,LC,https://mol.org/species/map/Claravis pretiosa,Columbidae
+Patagioenas picazuro,Picazuro Pigeon,LC,https://mol.org/species/map/Patagioenas picazuro,Columbidae
+Leptotila rufaxilla,Grey-Fronted Dove,LC,https://mol.org/species/map/Leptotila rufaxilla,Columbidae
+Leptotila verreauxi,White-Fronted Dove,LC,https://mol.org/species/map/Leptotila verreauxi,Columbidae
+Patagioenas speciosa,Scaled Pigeon,LC,https://mol.org/species/map/Patagioenas speciosa,Columbidae
+Geotrygon montana,Ruddy Quail-Dove,LC,https://mol.org/species/map/Geotrygon montana,Columbidae
+Geotrygon violacea,Violaceous Quail-Dove,LC,https://mol.org/species/map/Geotrygon violacea,Columbidae
+Columbina picui,Picui Dove,LC,https://mol.org/species/map/Columbina picui,Columbidae
+Columbina squammata,Scaly Dove,LC,https://mol.org/species/map/Columbina squammata,Columbidae
+Columbina talpacoti,Ruddy Ground-Dove,LC,https://mol.org/species/map/Columbina talpacoti,Columbidae
+Columba livia,Rock Dove,LC,https://mol.org/species/map/Columba livia,Columbidae
+Uropelia campestris,Long-Tailed Ground-Dove,LC,https://mol.org/species/map/Uropelia campestris,Columbidae
+Columbina minuta,Plain-Breasted Ground-Dove,LC,https://mol.org/species/map/Columbina minuta,Columbidae
+Patagioenas cayennensis,Pale Vented Pigeon,LC,https://mol.org/species/map/Patagioenas cayennensis,Columbidae
+Zenaida auriculata,Eared Dove,LC,https://mol.org/species/map/Zenaida auriculata,Columbidae
+Crotophaga ani,Smooth-Billed Ani,LC,https://mol.org/species/map/Crotophaga ani,Cuculidae
+Dromococcyx phasianellus,Pheasant Cuckoo,LC,https://mol.org/species/map/Dromococcyx phasianellus,Cuculidae
+Guira guira,Guira Cuckoo,LC,https://mol.org/species/map/Guira guira,Cuculidae
+Coccyzus melacoryphus,Dark-Billed Cuckoo,LC,https://mol.org/species/map/Coccyzus melacoryphus,Cuculidae
+Piaya cayana,Squirrel Cuckoo,LC,https://mol.org/species/map/Piaya cayana,Cuculidae
+Neomorphus geoffroyi,Rufous-Vented Ground-Cuckoo,VU,https://mol.org/species/map/Neomorphus geoffroyi,Cuculidae
+Coccyzus euleri,Pearly-Breasted Cuckoo,LC,https://mol.org/species/map/Coccyzus euleri,Cuculidae
+Coccyzus americanus,Yellow-Billed Cuckoo,LC,https://mol.org/species/map/Coccyzus americanus,Cuculidae
+Neomorphus squamiger,Scaled Ground-Cuckoo,VU,https://mol.org/species/map/Neomorphus squamiger,Cuculidae
+Tapera naevia,Striped Cuckoo,LC,https://mol.org/species/map/Tapera naevia,Cuculidae
+Crotophaga major,Greater Ani,LC,https://mol.org/species/map/Crotophaga major,Cuculidae
+Tyto alba,Barn Owl,LC,https://mol.org/species/map/Tyto alba,Tytonidae
+Strix hylophila,Rusty-Barred Owl,LC,https://mol.org/species/map/Strix hylophila,Strigidae
+Asio clamator,Striped Owl,LC,https://mol.org/species/map/Asio clamator,Strigidae
+Asio flammeus,Short-Eared Owl,LC,https://mol.org/species/map/Asio flammeus,Strigidae
+Asio stygius,Stygian Owl,LC,https://mol.org/species/map/Asio stygius,Strigidae
+Bubo virginianus,Great Horned Owl,LC,https://mol.org/species/map/Bubo virginianus,Strigidae
+Pulsatrix koeniswaldiana,Tawny-Browed Owl,LC,https://mol.org/species/map/Pulsatrix koeniswaldiana,Strigidae
+Glaucidium brasilianum,Ferruginous Pygmy-Owl,LC,https://mol.org/species/map/Glaucidium brasilianum,Strigidae
+Glaucidium minutissimum,Least (In Part) Pygmy-Owl,LC,https://mol.org/species/map/Glaucidium minutissimum,Strigidae
+Pulsatrix perspicillata,Spectacled Owl,LC,https://mol.org/species/map/Pulsatrix perspicillata,Strigidae
+Ciccaba virgata,Mottled Owl,LC,https://mol.org/species/map/Ciccaba virgata,Strigidae
+Athene cunicularia,Burrowing Owl,LC,https://mol.org/species/map/Athene cunicularia,Strigidae
+Megascops choliba,Tropical Screech Owl,LC,https://mol.org/species/map/Megascops choliba,Strigidae
+Megascops atricapilla,Black Capped Screech Owl,LC,https://mol.org/species/map/Megascops atricapilla,Strigidae
+Hydropsalis torquata,Scissor-Tailed Nightjar,LC,https://mol.org/species/map/Hydropsalis torquata,Caprimulgidae
+Setopagis parvula,,LC,https://mol.org/species/map/Setopagis parvula,Caprimulgidae
+Nyctidromus albicollis,Pauraque,LC,https://mol.org/species/map/Nyctidromus albicollis,Caprimulgidae
+Eleothreptus candicans,White-Winged Nightjar,VU,https://mol.org/species/map/Eleothreptus candicans,Caprimulgidae
+Chordeiles nacunda,Nacunda Nighthawk,LC,https://mol.org/species/map/Chordeiles nacunda,Caprimulgidae
+Macropsalis forcipata,Long Trained Nightjar,LC,https://mol.org/species/map/Macropsalis forcipata,Caprimulgidae
+Antrostomus rufus,Rufous Nightjar,LC,https://mol.org/species/map/Antrostomus rufus,Caprimulgidae
+Chordeiles acutipennis,Lesser Nighthawk,LC,https://mol.org/species/map/Chordeiles acutipennis,Caprimulgidae
+Chordeiles pusillus,Least Nighthawk,LC,https://mol.org/species/map/Chordeiles pusillus,Caprimulgidae
+Nyctiphrynus ocellatus,Ocellated Poorwill,LC,https://mol.org/species/map/Nyctiphrynus ocellatus,Caprimulgidae
+Lurocalis semitorquatus,Semi-Collared Nighthawk,LC,https://mol.org/species/map/Lurocalis semitorquatus,Caprimulgidae
+Chordeiles minor,Common Nighthawk,LC,https://mol.org/species/map/Chordeiles minor,Caprimulgidae
+Systellura longirostris,,LC,https://mol.org/species/map/Systellura longirostris,Caprimulgidae
+Nyctibius griseus,Grey Potoo,LC,https://mol.org/species/map/Nyctibius griseus,Nyctibiidae
+Nyctibius grandis,Great Potoo,LC,https://mol.org/species/map/Nyctibius grandis,Nyctibiidae
+Nyctibius aethereus,Long-Tailed Potoo,LC,https://mol.org/species/map/Nyctibius aethereus,Nyctibiidae
+Streptoprocne zonaris,White-Collared Swift,LC,https://mol.org/species/map/Streptoprocne zonaris,Apodidae
+Chaetura meridionalis,Sick's Swift,LC,https://mol.org/species/map/Chaetura meridionalis,Apodidae
+Chaetura vauxi,Vaux's Swift,LC,https://mol.org/species/map/Chaetura vauxi,Apodidae
+Chaetura cinereiventris,Grey-Rumped Swift,LC,https://mol.org/species/map/Chaetura cinereiventris,Apodidae
+Cypseloides senex,Great Dusky Swift,LC,https://mol.org/species/map/Cypseloides senex,Apodidae
+Cypseloides fumigatus,Sooty Swift,LC,https://mol.org/species/map/Cypseloides fumigatus,Apodidae
+Streptoprocne biscutata,Biscutate Swift,LC,https://mol.org/species/map/Streptoprocne biscutata,Apodidae
+Phaethornis pretrei,Planalto Hermit,LC,https://mol.org/species/map/Phaethornis pretrei,Trochilidae
+Phaethornis ruber,Reddish Hermit,LC,https://mol.org/species/map/Phaethornis ruber,Trochilidae
+Phaethornis eurynome,Scale-Throated Hermit,LC,https://mol.org/species/map/Phaethornis eurynome,Trochilidae
+Heliactin bilophus,Horned Sungem,LC,https://mol.org/species/map/Heliactin bilophus,Trochilidae
+Chlorostilbon lucidus,Glittering-Bellied Emerald,LC,https://mol.org/species/map/Chlorostilbon lucidus,Trochilidae
+Lophornis magnificus,Frilled Coquette,LC,https://mol.org/species/map/Lophornis magnificus,Trochilidae
+Eupetomena macroura,Swallow-Tailed Hummingbird,LC,https://mol.org/species/map/Eupetomena macroura,Trochilidae
+Phaethornis squalidus,Dusky-Throated Hermit,LC,https://mol.org/species/map/Phaethornis squalidus,Trochilidae
+Colibri serrirostris,White-Vented Violet-Ear,LC,https://mol.org/species/map/Colibri serrirostris,Trochilidae
+Eupetomena cirrochloris,,LC,https://mol.org/species/map/Eupetomena cirrochloris,Trochilidae
+Chrysuronia versicolor,,LC,https://mol.org/species/map/Chrysuronia versicolor,Trochilidae
+Campylopterus largipennis,Grey-Breasted Sabrewing,LC,https://mol.org/species/map/Campylopterus largipennis,Trochilidae
+Anthracothorax nigricollis,Black-Throated Mango,LC,https://mol.org/species/map/Anthracothorax nigricollis,Trochilidae
+Florisuga fusca,Black Jacobin,LC,https://mol.org/species/map/Florisuga fusca,Trochilidae
+Polytmus guainumbi,White-Tailed Goldenthroat,LC,https://mol.org/species/map/Polytmus guainumbi,Trochilidae
+Polytmus guainumbi,White-Tailed Goldenthroat,LC,https://mol.org/species/map/Polytmus guainumbi,Trochilidae
+Polytmus guainumbi,White-Tailed Goldenthroat,LC,https://mol.org/species/map/Polytmus guainumbi,Trochilidae
+Augastes scutatus,Hyacinth Visorbearer,LC,https://mol.org/species/map/Augastes scutatus,Trochilidae
+Stephanoxis lalandi,Plovercrest,LC,https://mol.org/species/map/Stephanoxis lalandi,Trochilidae
+Polytmus guainumbi,White-Tailed Goldenthroat,LC,https://mol.org/species/map/Polytmus guainumbi,Trochilidae
+Phaethornis idaliae,Minute Hermit,LC,https://mol.org/species/map/Phaethornis idaliae,Trochilidae
+Chrysolampis mosquitus,Ruby-Topaz Hummingbird,LC,https://mol.org/species/map/Chrysolampis mosquitus,Trochilidae
+Heliomaster furcifer,Blue-Tufted Starthroat,LC,https://mol.org/species/map/Heliomaster furcifer,Trochilidae
+Heliomaster squamosus,Stripe-Breasted Starthroat,LC,https://mol.org/species/map/Heliomaster squamosus,Trochilidae
+Leucochloris albicollis,White-Throated Hummingbird,LC,https://mol.org/species/map/Leucochloris albicollis,Trochilidae
+Glaucis hirsutus,Rufous-Breasted Hermit,LC,https://mol.org/species/map/Glaucis hirsutus,Trochilidae
+Chionomesa lactea,,LC,https://mol.org/species/map/Chionomesa lactea,Trochilidae
+Chionomesa fimbriata,,LC,https://mol.org/species/map/Chionomesa fimbriata,Trochilidae
+Heliothryx auritus,Black Eared Fairy,LC,https://mol.org/species/map/Heliothryx auritus,Trochilidae
+Clytolaema rubricauda,Brazilian Ruby,LC,https://mol.org/species/map/Clytolaema rubricauda,Trochilidae
+Calliphlox amethystina,Amethyst Woodstar,LC,https://mol.org/species/map/Calliphlox amethystina,Trochilidae
+Hylocharis sapphirina,Rufous-Throated Sapphire,LC,https://mol.org/species/map/Hylocharis sapphirina,Trochilidae
+Thalurania glaucopis,Violet-Capped Woodnymph,LC,https://mol.org/species/map/Thalurania glaucopis,Trochilidae
+Thalurania furcata,Fork-Tailed Woodnymph,LC,https://mol.org/species/map/Thalurania furcata,Trochilidae
+Trogon viridis,White-Tailed Trogon,LC,https://mol.org/species/map/Trogon viridis,Trogonidae
+Trogon rufus,Black-Throated Trogon,LC,https://mol.org/species/map/Trogon rufus,Trogonidae
+Trogon surrucura,Surucua Trogon,LC,https://mol.org/species/map/Trogon surrucura,Trogonidae
+Baryphthengus ruficapillus,Rufous-Capped Motmot,LC,https://mol.org/species/map/Baryphthengus ruficapillus,Momotidae
+Megaceryle torquata,Ringed Kingfisher,LC,https://mol.org/species/map/Megaceryle torquata,Alcedinidae
+Chloroceryle americana,Green Kingfisher,LC,https://mol.org/species/map/Chloroceryle americana,Alcedinidae
+Chloroceryle amazona,Amazon Kingfisher,LC,https://mol.org/species/map/Chloroceryle amazona,Alcedinidae
+Notharchus macrorhynchos,White-Necked Puffbird,LC,https://mol.org/species/map/Notharchus macrorhynchos,Bucconidae
+Notharchus swainsoni,Buff-Bellied Puffbird,LC,https://mol.org/species/map/Notharchus swainsoni,Bucconidae
+Nystalus chacuru,White-Eared Puffbird,LC,https://mol.org/species/map/Nystalus chacuru,Bucconidae
+Chelidoptera tenebrosa,Swallow-Wing,LC,https://mol.org/species/map/Chelidoptera tenebrosa,Bucconidae
+Malacoptila striata,Crescent-Chested Puffbird,LC,https://mol.org/species/map/Malacoptila striata,Bucconidae
+Nonnula rubecula,Rusty-Breasted Nunlet,LC,https://mol.org/species/map/Nonnula rubecula,Bucconidae
+Jacamaralcyon tridactyla,Three-Toed Jacamar,NT,https://mol.org/species/map/Jacamaralcyon tridactyla,Galbulidae
+Galbula ruficauda,Rufous-Tailed Jacamar,LC,https://mol.org/species/map/Galbula ruficauda,Galbulidae
+Ramphastos toco,Toco Toucan,LC,https://mol.org/species/map/Ramphastos toco,Ramphastidae
+Selenidera maculirostris,Spot-Billed Toucanet,LC,https://mol.org/species/map/Selenidera maculirostris,Ramphastidae
+Ramphastos vitellinus,Yellow-Ridged Toucan,LC,https://mol.org/species/map/Ramphastos vitellinus,Ramphastidae
+Ramphastos dicolorus,Red-Breasted Toucan,LC,https://mol.org/species/map/Ramphastos dicolorus,Ramphastidae
+Pteroglossus aracari,Black-Necked Aracari,LC,https://mol.org/species/map/Pteroglossus aracari,Ramphastidae
+Dryobates passerinus,,LC,https://mol.org/species/map/Dryobates passerinus,Picidae
+Celeus flavescens,Blond-Crested Woodpecker,LC,https://mol.org/species/map/Celeus flavescens,Picidae
+Melanerpes flavifrons,Yellow-Fronted Woodpecker,LC,https://mol.org/species/map/Melanerpes flavifrons,Picidae
+Campephilus robustus,Robust Woodpecker,LC,https://mol.org/species/map/Campephilus robustus,Picidae
+Colaptes campestris,Campo Flicker,LC,https://mol.org/species/map/Colaptes campestris,Picidae
+Piculus aurulentus,White-Browed Woodpecker,NT,https://mol.org/species/map/Piculus aurulentus,Picidae
+Piculus chrysochloros,Golden-Green Woodpecker,LC,https://mol.org/species/map/Piculus chrysochloros,Picidae
+Dryobates spilogaster,,LC,https://mol.org/species/map/Dryobates spilogaster,Picidae
+Dryocopus lineatus,Lineated Woodpecker,LC,https://mol.org/species/map/Dryocopus lineatus,Picidae
+Piculus flavigula,Yellow-Throated Woodpecker,LC,https://mol.org/species/map/Piculus flavigula,Picidae
+Picumnus albosquamatus,White-Wedged Piculet,LC,https://mol.org/species/map/Picumnus albosquamatus,Picidae
+Melanerpes candidus,White Woodpecker,LC,https://mol.org/species/map/Melanerpes candidus,Picidae
+Campephilus melanoleucos,Crimson-Crested Woodpecker,LC,https://mol.org/species/map/Campephilus melanoleucos,Picidae
+Picumnus cirratus,White-Barred Piculet,LC,https://mol.org/species/map/Picumnus cirratus,Picidae
+Picumnus minutissimus,Guianan Piculet,LC,https://mol.org/species/map/Picumnus minutissimus,Picidae
+Picumnus temminckii,Ochre-Collared Piculet,LC,https://mol.org/species/map/Picumnus temminckii,Picidae
+Colaptes melanochloros,Green-Barred Flicker,LC,https://mol.org/species/map/Colaptes melanochloros,Picidae
+Dryobates maculifrons,,LC,https://mol.org/species/map/Dryobates maculifrons,Picidae
+Melanerpes cactorum,White-Fronted Woodpecker,LC,https://mol.org/species/map/Melanerpes cactorum,Picidae
+Dryobates mixtus,,LC,https://mol.org/species/map/Dryobates mixtus,Picidae
+Cariama cristata,Red-Legged Seriema,LC,https://mol.org/species/map/Cariama cristata,Cariamidae
+Caracara plancus,Southern Caracara,LC,https://mol.org/species/map/Caracara plancus,Falconidae
+Falco femoralis,Aplomado Falcon,LC,https://mol.org/species/map/Falco femoralis,Falconidae
+Falco peregrinus,Peregrine Falcon,LC,https://mol.org/species/map/Falco peregrinus,Falconidae
+Falco rufigularis,Bat Falcon,LC,https://mol.org/species/map/Falco rufigularis,Falconidae
+Falco sparverius,American Kestrel,LC,https://mol.org/species/map/Falco sparverius,Falconidae
+Milvago chimachima,Yellow-Headed Caracara,LC,https://mol.org/species/map/Milvago chimachima,Falconidae
+Milvago chimango,Chimango Caracara,LC,https://mol.org/species/map/Milvago chimango,Falconidae
+Micrastur ruficollis,Barred Forest-Falcon,LC,https://mol.org/species/map/Micrastur ruficollis,Falconidae
+Micrastur semitorquatus,Collared Forest-Falcon,LC,https://mol.org/species/map/Micrastur semitorquatus,Falconidae
+Herpetotheres cachinnans,Laughing Falcon,LC,https://mol.org/species/map/Herpetotheres cachinnans,Falconidae
+Pionus maximiliani,Scaly-Headed Parrot,LC,https://mol.org/species/map/Pionus maximiliani,Psittacidae
+Diopsittaca nobilis,Red-Shouldered Macaw,LC,https://mol.org/species/map/Diopsittaca nobilis,Psittacidae
+Brotogeris chiriri,Yellow Chevroned Parakeet,LC,https://mol.org/species/map/Brotogeris chiriri,Psittacidae
+Pyrrhura frontalis,Maroon-Bellied Parakeet,LC,https://mol.org/species/map/Pyrrhura frontalis,Psittacidae
+Pyrrhura leucotis,White-Eared Parakeet,VU,https://mol.org/species/map/Pyrrhura leucotis,Psittacidae
+Amazona vinacea,Vinaceous Amazon,EN,https://mol.org/species/map/Amazona vinacea,Psittacidae
+Aratinga auricapillus,Golden Capped Parakeet,LC,https://mol.org/species/map/Aratinga auricapillus,Psittacidae
+Alipiopsitta xanthops,Yellow-Faced Amazon,NT,https://mol.org/species/map/Alipiopsitta xanthops,Psittacidae
+Pionopsitta pileata,Red-Capped Parrot,LC,https://mol.org/species/map/Pionopsitta pileata,Psittacidae
+Eupsittula aurea,,LC,https://mol.org/species/map/Eupsittula aurea,Psittacidae
+Forpus xanthopterygius,Blue-Winged Parrotlet,LC,https://mol.org/species/map/Forpus xanthopterygius,Psittacidae
+Brotogeris tirica,Plain Parakeet,LC,https://mol.org/species/map/Brotogeris tirica,Psittacidae
+Triclaria malachitacea,Purple-Bellied Parrot,LC,https://mol.org/species/map/Triclaria malachitacea,Psittacidae
+Primolius maracana,Blue Winged Macaw,NT,https://mol.org/species/map/Primolius maracana,Psittacidae
+Touit melanonotus,Brown-Backed Parrotlet,NT,https://mol.org/species/map/Touit melanonotus,Psittacidae
+Amazona aestiva,Blue-Fronted Amazon,NT,https://mol.org/species/map/Amazona aestiva,Psittacidae
+Amazona rhodocorytha,Red-Browed Amazon,VU,https://mol.org/species/map/Amazona rhodocorytha,Psittacidae
+Ara ararauna,Blue-And-Yellow Macaw,LC,https://mol.org/species/map/Ara ararauna,Psittacidae
+Psittacara leucophthalmus,,LC,https://mol.org/species/map/Psittacara leucophthalmus,Psittacidae
+Thamnophilus torquatus,Rufous-Winged Antshrike,LC,https://mol.org/species/map/Thamnophilus torquatus,Thamnophilidae
+Thamnophilus ruficapillus,Rufous-Capped Antshrike,LC,https://mol.org/species/map/Thamnophilus ruficapillus,Thamnophilidae
+Drymophila ferruginea,Ferruginous Antbird,LC,https://mol.org/species/map/Drymophila ferruginea,Thamnophilidae
+Drymophila malura,Dusky-Tailed Antbird,LC,https://mol.org/species/map/Drymophila malura,Thamnophilidae
+Drymophila ochropyga,Ochre-Rumped Antbird,NT,https://mol.org/species/map/Drymophila ochropyga,Thamnophilidae
+Drymophila rubricollis,Bertoni's Antbird,LC,https://mol.org/species/map/Drymophila rubricollis,Thamnophilidae
+Thamnophilus pelzelni,Planalto Slaty Antshrike,LC,https://mol.org/species/map/Thamnophilus pelzelni,Thamnophilidae
+Drymophila squamata,Scaled Antbird,LC,https://mol.org/species/map/Drymophila squamata,Thamnophilidae
+Terenura maculata,Streak-Capped Antwren,LC,https://mol.org/species/map/Terenura maculata,Thamnophilidae
+Thamnophilus palliatus,Lined Antshrike,LC,https://mol.org/species/map/Thamnophilus palliatus,Thamnophilidae
+Pyriglena leucoptera,White-Shouldered Fire-Eye,LC,https://mol.org/species/map/Pyriglena leucoptera,Thamnophilidae
+Thamnophilus doliatus,Barred Antshrike,LC,https://mol.org/species/map/Thamnophilus doliatus,Thamnophilidae
+Thamnophilus caerulescens,Variable Antshrike,LC,https://mol.org/species/map/Thamnophilus caerulescens,Thamnophilidae
+Thamnophilus ambiguus,Sooretama Slaty Antshrike,LC,https://mol.org/species/map/Thamnophilus ambiguus,Thamnophilidae
+Formicivora rufa,Rusty-Backed Antwren,LC,https://mol.org/species/map/Formicivora rufa,Thamnophilidae
+Formicivora serrana,Serra Antwren,LC,https://mol.org/species/map/Formicivora serrana,Thamnophilidae
+Myrmotherula axillaris,White-Flanked Antwren,LC,https://mol.org/species/map/Myrmotherula axillaris,Thamnophilidae
+Myrmotherula minor,Salvadori's Antwren,VU,https://mol.org/species/map/Myrmotherula minor,Thamnophilidae
+Rhopias gularis,,LC,https://mol.org/species/map/Rhopias gularis,Thamnophilidae
+Dysithamnus mentalis,Plain Antvireo,LC,https://mol.org/species/map/Dysithamnus mentalis,Thamnophilidae
+Taraba major,Great Antshrike,LC,https://mol.org/species/map/Taraba major,Thamnophilidae
+Batara cinerea,Giant Antshrike,LC,https://mol.org/species/map/Batara cinerea,Thamnophilidae
+Dysithamnus stictothorax,Spot-Breasted Antvireo,NT,https://mol.org/species/map/Dysithamnus stictothorax,Thamnophilidae
+Hypoedaleus guttatus,Spot-Backed Antshrike,LC,https://mol.org/species/map/Hypoedaleus guttatus,Thamnophilidae
+Mackenziaena severa,Tufted Antshrike,LC,https://mol.org/species/map/Mackenziaena severa,Thamnophilidae
+Mackenziaena leachii,Large-Tailed Antshrike,LC,https://mol.org/species/map/Mackenziaena leachii,Thamnophilidae
+Herpsilochmus atricapillus,Black-Capped Antwren,LC,https://mol.org/species/map/Herpsilochmus atricapillus,Thamnophilidae
+Herpsilochmus longirostris,Large-Billed Antwren,LC,https://mol.org/species/map/Herpsilochmus longirostris,Thamnophilidae
+Herpsilochmus rufimarginatus,Rufous-Winged Antwren,LC,https://mol.org/species/map/Herpsilochmus rufimarginatus,Thamnophilidae
+Myrmoderus loricatus,,LC,https://mol.org/species/map/Myrmoderus loricatus,Thamnophilidae
+Melanopareia torquata,Collared Crescentchest,LC,https://mol.org/species/map/Melanopareia torquata,Melanopareiidae
+Conopophaga melanops,Black-Cheeked Gnateater,LC,https://mol.org/species/map/Conopophaga melanops,Conopophagidae
+Conopophaga lineata,Rufous Gnateater,LC,https://mol.org/species/map/Conopophaga lineata,Conopophagidae
+Scytalopus iraiensis,Marsh Tapaculo,EN,https://mol.org/species/map/Scytalopus iraiensis,Rhinocryptidae
+Scytalopus petrophilus,Rock Tapaculo,LC,https://mol.org/species/map/Scytalopus petrophilus,Rhinocryptidae
+Scytalopus speluncae,Mouse-Coloured Tapaculo,LC,https://mol.org/species/map/Scytalopus speluncae,Rhinocryptidae
+Psilorhamphus guttatus,Spotted Bamboowren,LC,https://mol.org/species/map/Psilorhamphus guttatus,Rhinocryptidae
+Scytalopus novacapitalis,Brasilia Tapaculo,EN,https://mol.org/species/map/Scytalopus novacapitalis,Rhinocryptidae
+Eleoscytalopus indigoticus,White-Breasted Tapaculo,LC,https://mol.org/species/map/Eleoscytalopus indigoticus,Rhinocryptidae
+Chamaeza meruloides,Cryptic Antthrush,LC,https://mol.org/species/map/Chamaeza meruloides,Formicariidae
+Chamaeza campanisona,Short-Tailed Antthrush,LC,https://mol.org/species/map/Chamaeza campanisona,Formicariidae
+Formicarius colma,Rufous-Capped Antthrush,LC,https://mol.org/species/map/Formicarius colma,Formicariidae
+Chamaeza ruficauda,Scalloped Antthrush,LC,https://mol.org/species/map/Chamaeza ruficauda,Formicariidae
+Dendrocolaptes platyrostris,Planalto Woodcreeper,LC,https://mol.org/species/map/Dendrocolaptes platyrostris,Furnariidae
+Furnarius figulus,Band-Tailed Hornero,LC,https://mol.org/species/map/Furnarius figulus,Furnariidae
+Furnarius leucopus,Pale-Legged Hornero,LC,https://mol.org/species/map/Furnarius leucopus,Furnariidae
+Furnarius rufus,Rufous Hornero,LC,https://mol.org/species/map/Furnarius rufus,Furnariidae
+Lochmias nematura,Sharp-Tailed Streamcreeper,LC,https://mol.org/species/map/Lochmias nematura,Furnariidae
+Thripophaga macroura,Striated Softtail,VU,https://mol.org/species/map/Thripophaga macroura,Furnariidae
+Pseudoseisura cristata,Rufous Cacholote,LC,https://mol.org/species/map/Pseudoseisura cristata,Furnariidae
+Dendrocincla fuliginosa,Plain-Brown Woodcreeper,LC,https://mol.org/species/map/Dendrocincla fuliginosa,Furnariidae
+Dendrocincla turdina,Thrush Like Woodcreeper,LC,https://mol.org/species/map/Dendrocincla turdina,Furnariidae
+Syndactyla rufosuperciliata,Buff-Browed Foliage-Gleaner,LC,https://mol.org/species/map/Syndactyla rufosuperciliata,Furnariidae
+Syndactyla dimidiata,Russet Mantled Foliage Gleaner,LC,https://mol.org/species/map/Syndactyla dimidiata,Furnariidae
+Synallaxis spixi,Spix's Spinetail,LC,https://mol.org/species/map/Synallaxis spixi,Furnariidae
+Synallaxis scutata,Ochre-Cheeked Spinetail,LC,https://mol.org/species/map/Synallaxis scutata,Furnariidae
+Synallaxis ruficapilla,Rufous-Capped Spinetail,LC,https://mol.org/species/map/Synallaxis ruficapilla,Furnariidae
+Synallaxis hypospodia,Cinereous-Breasted Spinetail,LC,https://mol.org/species/map/Synallaxis hypospodia,Furnariidae
+Synallaxis frontalis,Sooty-Fronted Spinetail,LC,https://mol.org/species/map/Synallaxis frontalis,Furnariidae
+Synallaxis cinerea,,NT,https://mol.org/species/map/Synallaxis cinerea,Furnariidae
+Synallaxis cinerascens,Grey-Bellied Spinetail,LC,https://mol.org/species/map/Synallaxis cinerascens,Furnariidae
+Synallaxis albescens,Pale-Breasted Spinetail,LC,https://mol.org/species/map/Synallaxis albescens,Furnariidae
+Campylorhamphus falcularius,Black-Billed Scythebill,LC,https://mol.org/species/map/Campylorhamphus falcularius,Furnariidae
+Cranioleuca pallida,Pallid Spinetail,LC,https://mol.org/species/map/Cranioleuca pallida,Furnariidae
+Cranioleuca vulpina,Coiba Spinetail,LC,https://mol.org/species/map/Cranioleuca vulpina,Furnariidae
+Clibanornis rectirostris,,LC,https://mol.org/species/map/Clibanornis rectirostris,Furnariidae
+Automolus leucophthalmus,White-Eyed Foliage-Gleaner,LC,https://mol.org/species/map/Automolus leucophthalmus,Furnariidae
+Geositta poeciloptera,Campo Miner,VU,https://mol.org/species/map/Geositta poeciloptera,Furnariidae
+Lepidocolaptes squamatus,Scaled Woodcreeper,LC,https://mol.org/species/map/Lepidocolaptes squamatus,Furnariidae
+Lepidocolaptes angustirostris,Narrow-Billed Woodcreeper,LC,https://mol.org/species/map/Lepidocolaptes angustirostris,Furnariidae
+Glyphorynchus spirurus,Wedge Billed Woodcreeper,LC,https://mol.org/species/map/Glyphorynchus spirurus,Furnariidae
+Heliobletus contaminatus,Sharp-Billed Treehunter,LC,https://mol.org/species/map/Heliobletus contaminatus,Furnariidae
+Anumbius annumbi,Firewood-Gatherer,LC,https://mol.org/species/map/Anumbius annumbi,Furnariidae
+Cichlocolaptes leucophrus,Pale-Browed Treehunter,LC,https://mol.org/species/map/Cichlocolaptes leucophrus,Furnariidae
+Phacellodomus erythrophthalmus,Red-Eyed Thornbird,LC,https://mol.org/species/map/Phacellodomus erythrophthalmus,Furnariidae
+Phacellodomus ferrugineigula,Orange-Breasted Thornbird,LC,https://mol.org/species/map/Phacellodomus ferrugineigula,Furnariidae
+Schoeniophylax phryganophilus,Chotoy Spinetail,LC,https://mol.org/species/map/Schoeniophylax phryganophilus,Furnariidae
+Phacellodomus rufifrons,Rufous-Fronted Thornbird,LC,https://mol.org/species/map/Phacellodomus rufifrons,Furnariidae
+Cinclodes pabsti,Long-Tailed Cinclodes,NT,https://mol.org/species/map/Cinclodes pabsti,Furnariidae
+Sclerurus scansor,Rufous-Breasted Leafscraper,LC,https://mol.org/species/map/Sclerurus scansor,Furnariidae
+Xenops minutus,Plain Xenops,LC,https://mol.org/species/map/Xenops minutus,Furnariidae
+Xenops rutilans,Streaked Xenops,LC,https://mol.org/species/map/Xenops rutilans,Furnariidae
+Xiphocolaptes albicollis,Vila Nova Woodcreeper,LC,https://mol.org/species/map/Xiphocolaptes albicollis,Furnariidae
+Xiphorhynchus fuscus,Lesser Woodcreeper,LC,https://mol.org/species/map/Xiphorhynchus fuscus,Furnariidae
+Anabazenops fuscus,White-Collared Foliage-Gleaner,LC,https://mol.org/species/map/Anabazenops fuscus,Furnariidae
+Certhiaxis cinnamomeus,Yellow-Chinned Spinetail,LC,https://mol.org/species/map/Certhiaxis cinnamomeus,Furnariidae
+Anabacerthia lichtensteini,,LC,https://mol.org/species/map/Anabacerthia lichtensteini,Furnariidae
+Philydor atricapillus,Black-Capped Foliage-Gleaner,LC,https://mol.org/species/map/Philydor atricapillus,Furnariidae
+Sittasomus griseicapillus,Olivaceous Woodcreeper,LC,https://mol.org/species/map/Sittasomus griseicapillus,Furnariidae
+Asthenes luizae,Cipo Canastero,NT,https://mol.org/species/map/Asthenes luizae,Furnariidae
+Asthenes moreirae,Itatiaia Spinetail,LC,https://mol.org/species/map/Asthenes moreirae,Furnariidae
+Myiopagis viridicata,Greenish Elaenia,LC,https://mol.org/species/map/Myiopagis viridicata,Tyrannidae
+Myiarchus tyrannulus,Brown-Crested Flycatcher,LC,https://mol.org/species/map/Myiarchus tyrannulus,Tyrannidae
+Myiodynastes maculatus,Streaked Flycatcher,LC,https://mol.org/species/map/Myiodynastes maculatus,Tyrannidae
+Colonia colonus,Long-Tailed Tyrant,LC,https://mol.org/species/map/Colonia colonus,Tyrannidae
+Capsiempis flaveola,Yellow Tyrannulet,LC,https://mol.org/species/map/Capsiempis flaveola,Tyrannidae
+Myiopagis caniceps,Grey Elaenia,LC,https://mol.org/species/map/Myiopagis caniceps,Tyrannidae
+Elaenia spectabilis,Large Elaenia,LC,https://mol.org/species/map/Elaenia spectabilis,Tyrannidae
+Euscarthmus rufomarginatus,Rufous-Sided Pygmy-Tyrant,NT,https://mol.org/species/map/Euscarthmus rufomarginatus,Tyrannidae
+Gubernetes yetapa,Streamer-Tailed Tyrant,LC,https://mol.org/species/map/Gubernetes yetapa,Tyrannidae
+Myiophobus fasciatus,Bran-Coloured Flycatcher,LC,https://mol.org/species/map/Myiophobus fasciatus,Tyrannidae
+Myiornis auricularis,Eared Pygmy-Tyrant,LC,https://mol.org/species/map/Myiornis auricularis,Tyrannidae
+Elaenia cristata,Plain-Crested Elaenia,LC,https://mol.org/species/map/Elaenia cristata,Tyrannidae
+Elaenia flavogaster,Yellow-Bellied Elaenia,LC,https://mol.org/species/map/Elaenia flavogaster,Tyrannidae
+Myiozetetes cayanensis,Rusty-Margined Flycatcher,LC,https://mol.org/species/map/Myiozetetes cayanensis,Tyrannidae
+Myiozetetes similis,Social Flycatcher,LC,https://mol.org/species/map/Myiozetetes similis,Tyrannidae
+Euscarthmus meloryphus,Tawny-Crowned Pygmy-Tyrant,LC,https://mol.org/species/map/Euscarthmus meloryphus,Tyrannidae
+Hirundinea ferruginea,Cliff Flycatcher,LC,https://mol.org/species/map/Hirundinea ferruginea,Tyrannidae
+Satrapa icterophrys,Yellow-Browed Tyrant,LC,https://mol.org/species/map/Satrapa icterophrys,Tyrannidae
+Serpophaga subcristata,White-Crested Tyrannulet,LC,https://mol.org/species/map/Serpophaga subcristata,Tyrannidae
+Sublegatus modestus,Scrub Flycatcher,LC,https://mol.org/species/map/Sublegatus modestus,Tyrannidae
+Fluvicola nengeta,Masked Water-Tyrant,LC,https://mol.org/species/map/Fluvicola nengeta,Tyrannidae
+Platyrinchus mystaceus,White-Throated Spadebill,LC,https://mol.org/species/map/Platyrinchus mystaceus,Tyrannidae
+Attila rufus,Grey-Hooded Attila,LC,https://mol.org/species/map/Attila rufus,Tyrannidae
+Knipolegus cyanirostris,Blue-Billed Black-Tyrant,LC,https://mol.org/species/map/Knipolegus cyanirostris,Tyrannidae
+Xolmis velatus,White Rumped Monjita,LC,https://mol.org/species/map/Xolmis velatus,Tyrannidae
+Xolmis irupero,White Monjita,LC,https://mol.org/species/map/Xolmis irupero,Tyrannidae
+Cnemotriccus fuscatus,Fuscous Flycatcher,LC,https://mol.org/species/map/Cnemotriccus fuscatus,Tyrannidae
+Contopus cinereus,Tropical Pewee,LC,https://mol.org/species/map/Contopus cinereus,Tyrannidae
+Camptostoma obsoletum,Southern Beardless Tyrannulet,LC,https://mol.org/species/map/Camptostoma obsoletum,Tyrannidae
+Phaeomyias murina,Mouse-Coloured Tyrannulet,LC,https://mol.org/species/map/Phaeomyias murina,Tyrannidae
+Elaenia mesoleuca,Olivaceous Elaenia,LC,https://mol.org/species/map/Elaenia mesoleuca,Tyrannidae
+Empidonomus aurantioatrocristatus,Crowned Slaty Flycatcher,LC,https://mol.org/species/map/Empidonomus aurantioatrocristatus,Tyrannidae
+Poecilotriccus plumbeiceps,Ochre Faced Tody Flycatcher,LC,https://mol.org/species/map/Poecilotriccus plumbeiceps,Tyrannidae
+Elaenia albiceps,White-Crested Elaenia,LC,https://mol.org/species/map/Elaenia albiceps,Tyrannidae
+Elaenia obscura,Highland Elaenia,LC,https://mol.org/species/map/Elaenia obscura,Tyrannidae
+Elaenia chiriquensis,Lesser Elaenia,LC,https://mol.org/species/map/Elaenia chiriquensis,Tyrannidae
+Knipolegus nigerrimus,Velvety Black-Tyrant,LC,https://mol.org/species/map/Knipolegus nigerrimus,Tyrannidae
+Elaenia parvirostris,Small-Billed Elaenia,LC,https://mol.org/species/map/Elaenia parvirostris,Tyrannidae
+Suiriri suiriri,Suiriri Flycatcher,LC,https://mol.org/species/map/Suiriri suiriri,Tyrannidae
+Pitangus lictor,Lesser Kiskadee,LC,https://mol.org/species/map/Pitangus lictor,Tyrannidae
+Lathrotriccus euleri,Euler's Flycatcher,LC,https://mol.org/species/map/Lathrotriccus euleri,Tyrannidae
+Phyllomyias fasciatus,Planalto Tyrannulet,LC,https://mol.org/species/map/Phyllomyias fasciatus,Tyrannidae
+Tolmomyias sulphurescens,Yellow-Olive Flycatcher,LC,https://mol.org/species/map/Tolmomyias sulphurescens,Tyrannidae
+Todirostrum poliocephalum,Grey-Headed Tody-Flycatcher,LC,https://mol.org/species/map/Todirostrum poliocephalum,Tyrannidae
+Machetornis rixosa,Cattle Tyrant,LC,https://mol.org/species/map/Machetornis rixosa,Tyrannidae
+Rhytipterna simplex,Greyish Mourner,LC,https://mol.org/species/map/Rhytipterna simplex,Tyrannidae
+Todirostrum cinereum,Common Tody-Flycatcher,LC,https://mol.org/species/map/Todirostrum cinereum,Tyrannidae
+Legatus leucophaius,Piratic Flycatcher,LC,https://mol.org/species/map/Legatus leucophaius,Tyrannidae
+Leptopogon amaurocephalus,Sepia-Capped Leptopogon,LC,https://mol.org/species/map/Leptopogon amaurocephalus,Tyrannidae
+Alectrurus tricolor,Cock-Tailed Tyrant,VU,https://mol.org/species/map/Alectrurus tricolor,Tyrannidae
+Pitangus sulphuratus,Great Kiskadee,LC,https://mol.org/species/map/Pitangus sulphuratus,Tyrannidae
+Culicivora caudacuta,Sharp-Tailed Tyrant,VU,https://mol.org/species/map/Culicivora caudacuta,Tyrannidae
+Phylloscartes ventralis,Mottle-Cheeked Tyrannulet,LC,https://mol.org/species/map/Phylloscartes ventralis,Tyrannidae
+Pyrocephalus rubinus,Vermillion Flycatcher,LC,https://mol.org/species/map/Pyrocephalus rubinus,Tyrannidae
+Casiornis rufus,Rufous Casiornis,LC,https://mol.org/species/map/Casiornis rufus,Tyrannidae
+Sirystes sibilator,Sirystes,LC,https://mol.org/species/map/Sirystes sibilator,Tyrannidae
+Megarynchus pitangua,Boat-Billed Flycatcher,LC,https://mol.org/species/map/Megarynchus pitangua,Tyrannidae
+Arundinicola leucocephala,White-Headed Marsh-Tyrant,LC,https://mol.org/species/map/Arundinicola leucocephala,Tyrannidae
+Phyllomyias griseocapilla,Grey-Capped Tyrannulet,NT,https://mol.org/species/map/Phyllomyias griseocapilla,Tyrannidae
+Phyllomyias virescens,Greenish Tyrannulet,LC,https://mol.org/species/map/Phyllomyias virescens,Tyrannidae
+Elaenia sordida,,LC,https://mol.org/species/map/Elaenia sordida,Tyrannidae
+Hemitriccus orbitatus,Olivaceous Tody-Tyrant,NT,https://mol.org/species/map/Hemitriccus orbitatus,Tyrannidae
+Mionectes rufiventris,Grey-Hooded Flycatcher,LC,https://mol.org/species/map/Mionectes rufiventris,Tyrannidae
+Tyrannus albogularis,White-Throated Kingbird,LC,https://mol.org/species/map/Tyrannus albogularis,Tyrannidae
+Tyrannus melancholicus,Tropical Kingbird,LC,https://mol.org/species/map/Tyrannus melancholicus,Tyrannidae
+Tyrannus savana,Fork-Tailed Flycatcher,LC,https://mol.org/species/map/Tyrannus savana,Tyrannidae
+Tyrannus tyrannus,Eastern Kingbird,LC,https://mol.org/species/map/Tyrannus tyrannus,Tyrannidae
+Hemitriccus obsoletus,Brown-Breasted Tody-Tyrant,LC,https://mol.org/species/map/Hemitriccus obsoletus,Tyrannidae
+Hemitriccus nidipendulus,Hangnest Tody-Tyrant,LC,https://mol.org/species/map/Hemitriccus nidipendulus,Tyrannidae
+Hemitriccus margaritaceiventer,Pearly-Vented Tody-Tyrant,LC,https://mol.org/species/map/Hemitriccus margaritaceiventer,Tyrannidae
+Hemitriccus diops,Drab-Breasted Tody-Tyrant,LC,https://mol.org/species/map/Hemitriccus diops,Tyrannidae
+Corythopis delalandi,Delalande's Antpipit,LC,https://mol.org/species/map/Corythopis delalandi,Tyrannidae
+Muscipipra vetula,Shear-Tailed Grey-Tyrant,LC,https://mol.org/species/map/Muscipipra vetula,Tyrannidae
+Phylloscartes eximius,Southern Bristle-Tyrant,LC,https://mol.org/species/map/Phylloscartes eximius,Tyrannidae
+Phylloscartes sylviolus,Bay-Ringed Tyrannulet,NT,https://mol.org/species/map/Phylloscartes sylviolus,Tyrannidae
+Empidonomus varius,Variegated Flycatcher,LC,https://mol.org/species/map/Empidonomus varius,Tyrannidae
+Conopias trivirgatus,Three Striped Flycatcher,LC,https://mol.org/species/map/Conopias trivirgatus,Tyrannidae
+Serpophaga nigricans,Sooty Tyrannulet,LC,https://mol.org/species/map/Serpophaga nigricans,Tyrannidae
+Phyllomyias burmeisteri,White-Fronted Tyrannulet,LC,https://mol.org/species/map/Phyllomyias burmeisteri,Tyrannidae
+Myiarchus ferox,Short-Crested Flycatcher,LC,https://mol.org/species/map/Myiarchus ferox,Tyrannidae
+Myiarchus swainsoni,Swainson's Flycatcher,LC,https://mol.org/species/map/Myiarchus swainsoni,Tyrannidae
+Polystictus superciliaris,Grey-Backed Tachuri,LC,https://mol.org/species/map/Polystictus superciliaris,Tyrannidae
+Knipolegus lophotes,Crested Black-Tyrant,LC,https://mol.org/species/map/Knipolegus lophotes,Tyrannidae
+Myiarchus tuberculifer,Dusky-Capped Flycatcher,LC,https://mol.org/species/map/Myiarchus tuberculifer,Tyrannidae
+Myiobius atricaudus,Black-Tailed Flycatcher,LC,https://mol.org/species/map/Myiobius atricaudus,Oxyruncidae
+Myiobius barbatus,Sulphur-Rumped Flycatcher,LC,https://mol.org/species/map/Myiobius barbatus,Oxyruncidae
+Oxyruncus cristatus,Sharpbill,LC,https://mol.org/species/map/Oxyruncus cristatus,Oxyruncidae
+Procnias nudicollis,Bare-Throated Bellbird,NT,https://mol.org/species/map/Procnias nudicollis,Cotingidae
+Lipaugus lanioides,Cinnamon-Vented Piha,NT,https://mol.org/species/map/Lipaugus lanioides,Cotingidae
+Pyroderus scutatus,Red-Ruffed Fruitcrow,LC,https://mol.org/species/map/Pyroderus scutatus,Cotingidae
+Lipaugus vociferans,Screaming Piha,LC,https://mol.org/species/map/Lipaugus vociferans,Cotingidae
+Carpornis cucullata,Hooded Berryeater,NT,https://mol.org/species/map/Carpornis cucullata,Cotingidae
+Phibalura flavirostris,Swallow-Tailed Cotinga,NT,https://mol.org/species/map/Phibalura flavirostris,Cotingidae
+Phoenicircus carnifex,Guianan Red-Cotinga,LC,https://mol.org/species/map/Phoenicircus carnifex,Cotingidae
+Manacus manacus,White-Bearded Manakin,LC,https://mol.org/species/map/Manacus manacus,Pipridae
+Neopelma pallescens,Pale-Bellied Tyrant-Manakin,LC,https://mol.org/species/map/Neopelma pallescens,Pipridae
+Neopelma chrysolophum,Serra Do Mar Tyrant-Manakin,LC,https://mol.org/species/map/Neopelma chrysolophum,Pipridae
+Neopelma aurifrons,Wied's Tyrant-Manakin,NT,https://mol.org/species/map/Neopelma aurifrons,Pipridae
+Ilicura militaris,Pin-Tailed Manakin,LC,https://mol.org/species/map/Ilicura militaris,Pipridae
+Antilophia galeata,Helmeted Manakin,LC,https://mol.org/species/map/Antilophia galeata,Pipridae
+Pipra fasciicauda,Band-Tailed Manakin,LC,https://mol.org/species/map/Pipra fasciicauda,Pipridae
+Chiroxiphia caudata,Swallow-Tailed Manakin,LC,https://mol.org/species/map/Chiroxiphia caudata,Pipridae
+Tityra cayana,Black-Tailed Tityra,LC,https://mol.org/species/map/Tityra cayana,Tityridae
+Iodopleura pipra,Buff-Throated Purpletuft,EN,https://mol.org/species/map/Iodopleura pipra,Tityridae
+Schiffornis virescens,Greenish Schiffornis,LC,https://mol.org/species/map/Schiffornis virescens,Tityridae
+Laniisoma elegans,Shrike-Like Cotinga,NT,https://mol.org/species/map/Laniisoma elegans,Tityridae
+Pachyramphus viridis,Green-Backed Becard,LC,https://mol.org/species/map/Pachyramphus viridis,Tityridae
+Pachyramphus validus,Crested Becard,LC,https://mol.org/species/map/Pachyramphus validus,Tityridae
+Pachyramphus polychopterus,White-Winged Becard,LC,https://mol.org/species/map/Pachyramphus polychopterus,Tityridae
+Pachyramphus marginatus,Black-Capped Becard,LC,https://mol.org/species/map/Pachyramphus marginatus,Tityridae
+Tityra inquisitor,Black-Crowned Tityra,LC,https://mol.org/species/map/Tityra inquisitor,Tityridae
+Pachyramphus castaneus,Chestnut-Crowned Becard,LC,https://mol.org/species/map/Pachyramphus castaneus,Tityridae
+Hylophilus amaurocephalus,Grey-Eyed Greenlet,LC,https://mol.org/species/map/Hylophilus amaurocephalus,Vireonidae
+Cyclarhis gujanensis,Rufous-Browed Peppershrike,LC,https://mol.org/species/map/Cyclarhis gujanensis,Vireonidae
+Vireo chivi,,LC,https://mol.org/species/map/Vireo chivi,Vireonidae
+Vireo olivaceus,Red-Eyed Vireo,LC,https://mol.org/species/map/Vireo olivaceus,Vireonidae
+Hylophilus thoracicus,Lemon-Chested Greenlet,LC,https://mol.org/species/map/Hylophilus thoracicus,Vireonidae
+Hylophilus poicilotis,Rufous-Crowned Greenlet,LC,https://mol.org/species/map/Hylophilus poicilotis,Vireonidae
+Hylophilus pectoralis,Ashy-Headed Greenlet,LC,https://mol.org/species/map/Hylophilus pectoralis,Vireonidae
+Cyanocorax cristatellus,Curl-Crested Jay,LC,https://mol.org/species/map/Cyanocorax cristatellus,Corvidae
+Cyanocorax chrysops,Plush-Crested Jay,LC,https://mol.org/species/map/Cyanocorax chrysops,Corvidae
+Cyanocorax cyanopogon,White-Naped Jay,LC,https://mol.org/species/map/Cyanocorax cyanopogon,Corvidae
+Petrochelidon pyrrhonota,Cliff Swallow,LC,https://mol.org/species/map/Petrochelidon pyrrhonota,Hirundinidae
+Alopochelidon fucata,Tawny Headed Swallow,LC,https://mol.org/species/map/Alopochelidon fucata,Hirundinidae
+Tachycineta albiventer,White-Winged Swallow,LC,https://mol.org/species/map/Tachycineta albiventer,Hirundinidae
+Pygochelidon cyanoleuca,Blue-And-White Swallow,LC,https://mol.org/species/map/Pygochelidon cyanoleuca,Hirundinidae
+Progne tapera,Brown Chested Martin,LC,https://mol.org/species/map/Progne tapera,Hirundinidae
+Riparia riparia,Sand Martin,LC,https://mol.org/species/map/Riparia riparia,Hirundinidae
+Progne subis,Purple Martin,LC,https://mol.org/species/map/Progne subis,Hirundinidae
+Hirundo rustica,Barn Swallow,LC,https://mol.org/species/map/Hirundo rustica,Hirundinidae
+Progne chalybea,Grey-Breasted Martin,LC,https://mol.org/species/map/Progne chalybea,Hirundinidae
+Stelgidopteryx ruficollis,Southern Rough-Winged Swallow,LC,https://mol.org/species/map/Stelgidopteryx ruficollis,Hirundinidae
+Tachycineta leucorrhoa,White-Rumped Swallow,LC,https://mol.org/species/map/Tachycineta leucorrhoa,Hirundinidae
+Pygochelidon melanoleuca,Black Collared Swallow,LC,https://mol.org/species/map/Pygochelidon melanoleuca,Hirundinidae
+Cantorchilus longirostris,Long Billed Wren,LC,https://mol.org/species/map/Cantorchilus longirostris,Troglodytidae
+Cantorchilus leucotis,Buff Breasted Wren,LC,https://mol.org/species/map/Cantorchilus leucotis,Troglodytidae
+Cistothorus platensis,Sedge Wren,LC,https://mol.org/species/map/Cistothorus platensis,Troglodytidae
+Troglodytes aedon,House Wren,LC,https://mol.org/species/map/Troglodytes aedon,Troglodytidae
+Polioptila plumbea,Tropical Gnatcatcher,LC,https://mol.org/species/map/Polioptila plumbea,Polioptilidae
+Polioptila dumicola,Masked Gnatcatcher,LC,https://mol.org/species/map/Polioptila dumicola,Polioptilidae
+Donacobius atricapilla,Black-Capped Donacobius,LC,https://mol.org/species/map/Donacobius atricapilla,Donacobiidae
+Turdus flavipes,Yellow-Legged Thrush,LC,https://mol.org/species/map/Turdus flavipes,Turdidae
+Turdus subalaris,Eastern Slaty Thrush,LC,https://mol.org/species/map/Turdus subalaris,Turdidae
+Turdus rufiventris,Rufous-Bellied Thrush,LC,https://mol.org/species/map/Turdus rufiventris,Turdidae
+Turdus nigriceps,Eastern Slaty-Thrush,LC,https://mol.org/species/map/Turdus nigriceps,Turdidae
+Turdus leucomelas,Pale-Breasted Thrush,LC,https://mol.org/species/map/Turdus leucomelas,Turdidae
+Turdus amaurochalinus,Creamy-Bellied Thrush,LC,https://mol.org/species/map/Turdus amaurochalinus,Turdidae
+Turdus albicollis,White-Necked Thrush,LC,https://mol.org/species/map/Turdus albicollis,Turdidae
+Mimus saturninus,Chalk-Browed Mockingbird,LC,https://mol.org/species/map/Mimus saturninus,Mimidae
+Anthus hellmayri,Hellmayr's Pipit,LC,https://mol.org/species/map/Anthus hellmayri,Motacillidae
+Anthus nattereri,Ochre-Breasted Pipit,VU,https://mol.org/species/map/Anthus nattereri,Motacillidae
+Anthus lutescens,Yellowish Pipit,LC,https://mol.org/species/map/Anthus lutescens,Motacillidae
+Setophaga pitiayumi,Tropical Parula,LC,https://mol.org/species/map/Setophaga pitiayumi,Parulidae
+Geothlypis aequinoctialis,Masked Yellowthroat,LC,https://mol.org/species/map/Geothlypis aequinoctialis,Parulidae
+Myiothlypis flaveola,,LC,https://mol.org/species/map/Myiothlypis flaveola,Parulidae
+Myiothlypis leucoblephara,,LC,https://mol.org/species/map/Myiothlypis leucoblephara,Parulidae
+Myiothlypis leucophrys,White Striped Warbler,LC,https://mol.org/species/map/Myiothlypis leucophrys,Parulidae
+Basileuterus culicivorus,Golden-Crowned Warbler,LC,https://mol.org/species/map/Basileuterus culicivorus,Parulidae
+Dacnis cayana,Blue Dacnis,LC,https://mol.org/species/map/Dacnis cayana,Thraupidae
+Dacnis nigripes,Black-Legged Dacnis,NT,https://mol.org/species/map/Dacnis nigripes,Thraupidae
+Stilpnia cayana,,LC,https://mol.org/species/map/Stilpnia cayana,Thraupidae
+Ramphocelus bresilius,Brazilian Tanager,LC,https://mol.org/species/map/Ramphocelus bresilius,Thraupidae
+Tersina viridis,Swallow-Tanager,LC,https://mol.org/species/map/Tersina viridis,Thraupidae
+Stilpnia preciosa,,LC,https://mol.org/species/map/Stilpnia preciosa,Thraupidae
+Chlorophanes spiza,Green Honeycreeper,LC,https://mol.org/species/map/Chlorophanes spiza,Thraupidae
+Ramphocelus carbo,Silver-Beaked Tanager,LC,https://mol.org/species/map/Ramphocelus carbo,Thraupidae
+Tangara cyanoventris,Gilt-Edged Tanager,LC,https://mol.org/species/map/Tangara cyanoventris,Thraupidae
+Neothraupis fasciata,White-Banded Tanager,NT,https://mol.org/species/map/Neothraupis fasciata,Thraupidae
+Trichothraupis melanops,Black-Goggled Tanager,LC,https://mol.org/species/map/Trichothraupis melanops,Thraupidae
+Tangara desmaresti,Brassy-Breasted Tanager,LC,https://mol.org/species/map/Tangara desmaresti,Thraupidae
+Tangara seledon,Green-Headed Tanager,LC,https://mol.org/species/map/Tangara seledon,Thraupidae
+Coereba flaveola,Bananaquit,LC,https://mol.org/species/map/Coereba flaveola,Thraupidae
+Sicalis citrina,Stripe-Tailed Yellow-Finch,LC,https://mol.org/species/map/Sicalis citrina,Thraupidae
+Volatinia jacarina,Blue-Black Grassquit,LC,https://mol.org/species/map/Volatinia jacarina,Thraupidae
+Schistochlamys ruficapillus,Cinnamon Tanager,LC,https://mol.org/species/map/Schistochlamys ruficapillus,Thraupidae
+Sicalis columbiana,Orange-Fronted Yellow-Finch,LC,https://mol.org/species/map/Sicalis columbiana,Thraupidae
+Sicalis flaveola,Saffron Finch,LC,https://mol.org/species/map/Sicalis flaveola,Thraupidae
+Schistochlamys melanopis,Black-Faced Tanager,LC,https://mol.org/species/map/Schistochlamys melanopis,Thraupidae
+Paroaria dominicana,Red-Cowled Cardinal,LC,https://mol.org/species/map/Paroaria dominicana,Thraupidae
+Conirostrum speciosum,Chestnut-Vented Conebill,LC,https://mol.org/species/map/Conirostrum speciosum,Thraupidae
+Cypsnagra hirundinacea,White-Rumped Tanager,LC,https://mol.org/species/map/Cypsnagra hirundinacea,Thraupidae
+Emberizoides herbicola,Wedge-Tailed Grass-Finch,LC,https://mol.org/species/map/Emberizoides herbicola,Thraupidae
+Asemospiza fuliginosa,,LC,https://mol.org/species/map/Asemospiza fuliginosa,Thraupidae
+Embernagra longicauda,Pale-Throated Serra-Finch,LC,https://mol.org/species/map/Embernagra longicauda,Thraupidae
+Embernagra platensis,Great Pampa-Finch,LC,https://mol.org/species/map/Embernagra platensis,Thraupidae
+Haplospiza unicolor,Uniform Finch,LC,https://mol.org/species/map/Haplospiza unicolor,Thraupidae
+Thraupis sayaca,Sayaca Tanager,LC,https://mol.org/species/map/Thraupis sayaca,Thraupidae
+Thraupis palmarum,Palm Tanager,LC,https://mol.org/species/map/Thraupis palmarum,Thraupidae
+Sporophila americana,Wing-Barred Seedeater,LC,https://mol.org/species/map/Sporophila americana,Thraupidae
+Thraupis ornata,Golden-Chevroned Tanager,LC,https://mol.org/species/map/Thraupis ornata,Thraupidae
+Sporophila angolensis,,LC,https://mol.org/species/map/Sporophila angolensis,Thraupidae
+Sporophila ardesiaca,Dubois' Seedeater,LC,https://mol.org/species/map/Sporophila ardesiaca,Thraupidae
+Sporophila bouvreuil,Capped Seedeater,LC,https://mol.org/species/map/Sporophila bouvreuil,Thraupidae
+Thraupis cyanoptera,Azure-Shouldered Tanager,LC,https://mol.org/species/map/Thraupis cyanoptera,Thraupidae
+Sporophila caerulescens,Double-Collared Seedeater,LC,https://mol.org/species/map/Sporophila caerulescens,Thraupidae
+Sporophila collaris,Rusty-Collared Seedeater,LC,https://mol.org/species/map/Sporophila collaris,Thraupidae
+Sporophila falcirostris,Temminck's Seedeater,VU,https://mol.org/species/map/Sporophila falcirostris,Thraupidae
+Sporophila frontalis,Buffy-Throated Seedeater,VU,https://mol.org/species/map/Sporophila frontalis,Thraupidae
+Pipraeidea melanonota,Fawn-Breasted Tanager,LC,https://mol.org/species/map/Pipraeidea melanonota,Thraupidae
+Sporophila leucoptera,White-Bellied Seedeater,LC,https://mol.org/species/map/Sporophila leucoptera,Thraupidae
+Microspingus cinereus,,LC,https://mol.org/species/map/Microspingus cinereus,Thraupidae
+Sporophila lineola,Lined Seedeater,LC,https://mol.org/species/map/Sporophila lineola,Thraupidae
+Sporophila melanogaster,Black-Bellied Seedeater,NT,https://mol.org/species/map/Sporophila melanogaster,Thraupidae
+Eucometis penicillata,Grey-Headed Tanager,LC,https://mol.org/species/map/Eucometis penicillata,Thraupidae
+Sporophila nigricollis,Yellow-Bellied Seedeater,LC,https://mol.org/species/map/Sporophila nigricollis,Thraupidae
+Sporophila plumbea,Plumbeous Seedeater,LC,https://mol.org/species/map/Sporophila plumbea,Thraupidae
+Saltatricula atricollis,,LC,https://mol.org/species/map/Saltatricula atricollis,Thraupidae
+Saltator similis,Green-Winged Saltator,LC,https://mol.org/species/map/Saltator similis,Thraupidae
+Saltator maximus,Buff-Throated Saltator,LC,https://mol.org/species/map/Saltator maximus,Thraupidae
+Saltator maxillosus,Thick-Billed Saltator,LC,https://mol.org/species/map/Saltator maxillosus,Thraupidae
+Thlypopsis sordida,Orange-Headed Tanager,LC,https://mol.org/species/map/Thlypopsis sordida,Thraupidae
+Saltator fuliginosus,Black Throated Grosbeak,LC,https://mol.org/species/map/Saltator fuliginosus,Thraupidae
+Iridosornis rufivertex,Golden-Crowned Tanager,LC,https://mol.org/species/map/Iridosornis rufivertex,Thraupidae
+Charitospiza eucosma,Coal-Crested Finch,NT,https://mol.org/species/map/Charitospiza eucosma,Thraupidae
+Coryphaspiza melanotis,Black-Masked Finch,VU,https://mol.org/species/map/Coryphaspiza melanotis,Thraupidae
+Cissopis leverianus,Magpie Tanager,LC,https://mol.org/species/map/Cissopis leverianus,Thraupidae
+Donacospiza albifrons,Long-Tailed Reed-Finch,LC,https://mol.org/species/map/Donacospiza albifrons,Thraupidae
+Coryphospingus cucullatus,Red-Crested Finch,LC,https://mol.org/species/map/Coryphospingus cucullatus,Thraupidae
+Coryphospingus pileatus,Pileated Finch,LC,https://mol.org/species/map/Coryphospingus pileatus,Thraupidae
+Hemithraupis flavicollis,Yellow-Backed Tanager,LC,https://mol.org/species/map/Hemithraupis flavicollis,Thraupidae
+Tachyphonus coronatus,Ruby-Crowned Tanager,LC,https://mol.org/species/map/Tachyphonus coronatus,Thraupidae
+Tachyphonus rufus,White-Lined Tanager,LC,https://mol.org/species/map/Tachyphonus rufus,Thraupidae
+Hemithraupis guira,Guira Tanager,LC,https://mol.org/species/map/Hemithraupis guira,Thraupidae
+Hemithraupis ruficapilla,Rufous-Headed Tanager,LC,https://mol.org/species/map/Hemithraupis ruficapilla,Thraupidae
+Sicalis luteola,Grassland Yellow-Finch,LC,https://mol.org/species/map/Sicalis luteola,Thraupidae
+Nemosia pileata,Hooded Tanager,LC,https://mol.org/species/map/Nemosia pileata,Thraupidae
+Arremon flavirostris,Saffron-Billed Sparrow,LC,https://mol.org/species/map/Arremon flavirostris,Passerellidae
+Arremon semitorquatus,Half-Collared Sparrow,LC,https://mol.org/species/map/Arremon semitorquatus,Passerellidae
+Arremon taciturnus,Pectoral Sparrow,LC,https://mol.org/species/map/Arremon taciturnus,Passerellidae
+Zonotrichia capensis,Rufous-Collared Sparrow,LC,https://mol.org/species/map/Zonotrichia capensis,Passerellidae
+Ammodramus humeralis,Grassland Sparrow,LC,https://mol.org/species/map/Ammodramus humeralis,Passerellidae
+Caryothraustes canadensis,Yellow-Green Grosbeak,LC,https://mol.org/species/map/Caryothraustes canadensis,Cardinalidae
+Habia rubica,Red-Crowned Ant-Tanager,LC,https://mol.org/species/map/Habia rubica,Cardinalidae
+Piranga rubra,Summer Tanager,LC,https://mol.org/species/map/Piranga rubra,Cardinalidae
+Piranga flava,Hepatic Tanager,LC,https://mol.org/species/map/Piranga flava,Cardinalidae
+Amaurospiza moesta,Blackish-Blue Seedeater,LC,https://mol.org/species/map/Amaurospiza moesta,Cardinalidae
+Cyanoloxia brissonii,,LC,https://mol.org/species/map/Cyanoloxia brissonii,Cardinalidae
+Agelasticus cyanopus,Unicoloured Blackbird,LC,https://mol.org/species/map/Agelasticus cyanopus,Icteridae
+Molothrus oryzivorus,Giant Cowbird,LC,https://mol.org/species/map/Molothrus oryzivorus,Icteridae
+Molothrus rufoaxillaris,Screaming Cowbird,LC,https://mol.org/species/map/Molothrus rufoaxillaris,Icteridae
+Icterus cayanensis,Epaulet Oriole,LC,https://mol.org/species/map/Icterus cayanensis,Icteridae
+Icterus jamacaii,Campo Troupial,LC,https://mol.org/species/map/Icterus jamacaii,Icteridae
+Icterus pyrrhopterus,Variable Oriole,LC,https://mol.org/species/map/Icterus pyrrhopterus,Icteridae
+Pseudoleistes guirahuro,Yellow-Rumped Marshbird,LC,https://mol.org/species/map/Pseudoleistes guirahuro,Icteridae
+Gnorimopsar chopi,Chopi Blackbird,LC,https://mol.org/species/map/Gnorimopsar chopi,Icteridae
+Chrysomus ruficapillus,Chestnut-Capped Blackbird,LC,https://mol.org/species/map/Chrysomus ruficapillus,Icteridae
+Anumara forbesi,,VU,https://mol.org/species/map/Anumara forbesi,Icteridae
+Cacicus haemorrhous,Red-Rumped Cacique,LC,https://mol.org/species/map/Cacicus haemorrhous,Icteridae
+Cacicus solitarius,Solitary Cacique,LC,https://mol.org/species/map/Cacicus solitarius,Icteridae
+Molothrus bonariensis,Shiny Cowbird,LC,https://mol.org/species/map/Molothrus bonariensis,Icteridae
+Psarocolius decumanus,Crested Oropendola,LC,https://mol.org/species/map/Psarocolius decumanus,Icteridae
+Cacicus cela,Yellow-Rumped Cacique,LC,https://mol.org/species/map/Cacicus cela,Icteridae
+Euphonia chalybea,Green-Throated Euphonia,NT,https://mol.org/species/map/Euphonia chalybea,Fringillidae
+Euphonia chlorotica,Purple-Throated Euphonia,LC,https://mol.org/species/map/Euphonia chlorotica,Fringillidae
+Euphonia pectoralis,Chestnut-Bellied Euphonia,LC,https://mol.org/species/map/Euphonia pectoralis,Fringillidae
+Euphonia violacea,Violaceous Euphonia,LC,https://mol.org/species/map/Euphonia violacea,Fringillidae
+Euphonia xanthogaster,Orange-Bellied Euphonia,LC,https://mol.org/species/map/Euphonia xanthogaster,Fringillidae
+Chlorophonia cyanea,Blue-Naped Chlorophonia,LC,https://mol.org/species/map/Chlorophonia cyanea,Fringillidae
+Spinus magellanicus,Hooded Siskin,LC,https://mol.org/species/map/Spinus magellanicus,Fringillidae
+Passer domesticus,House Sparrow,LC,https://mol.org/species/map/Passer domesticus,Passeridae
+Estrilda astrild,Common Waxbill,LC,https://mol.org/species/map/Estrilda astrild,Estrildidae
+Claravis godefrida,Purple-Barred Ground-Dove,LC,https://mol.org/species/map/Claravis godefrida,
+Cyanocompsa brissonii,Ultramarine Grosbeak,LC,https://mol.org/species/map/Cyanocompsa brissonii,
+Euphonia cyanocephala,Golden-Rumped Euphonia,LC,https://mol.org/species/map/Euphonia cyanocephala,
+Geothlypis velata,Southern Yellowthroat,LC,https://mol.org/species/map/Geothlypis velata,
+Harpyhaliaetus coronatus,Crowned Eagle,CR,https://mol.org/species/map/Harpyhaliaetus coronatus,
+Hylocharis cyanus,White-Chinned Sapphire,LC,https://mol.org/species/map/Hylocharis cyanus,
+Hylocharis leucotis,White-Eared Hummingbird,LC,https://mol.org/species/map/Hylocharis leucotis,
+Hylocryptus rectirostris,Chestnut Capped Foliage Gleaner,NT,https://mol.org/species/map/Hylocryptus rectirostris,
+Hylopezus nattereri,Speckle Breasted Antpitta,LC,https://mol.org/species/map/Hylopezus nattereri,
+Larus cirrocephalus,Grey-Headed Gull,LC,https://mol.org/species/map/Larus cirrocephalus,
+Leucopternis lacernulatus,White Necked Hawk,LC,https://mol.org/species/map/Leucopternis lacernulatus,
+Myrmeciza loricata,White-Bibbed Antbird,LC,https://mol.org/species/map/Myrmeciza loricata,
+Notiochelidon cyanoleuca,Blue-And-White Swallow,LC,https://mol.org/species/map/Notiochelidon cyanoleuca,
+Orthogonys chloricterus,Olive-Green Tanager,LC,https://mol.org/species/map/Orthogonys chloricterus,Mitrospingidae
+Oryzoborus angolensis,Lesser Seed-Finch,LC,https://mol.org/species/map/Oryzoborus angolensis,
+Oryzoborus maximiliani,Great-Billed Seed-Finch,LC,https://mol.org/species/map/Oryzoborus maximiliani,
+Parula pitiayumi,Olive-Backed Warbler,LC,https://mol.org/species/map/Parula pitiayumi,
+Phaeothlypis rivularis,Neotropical River Warbler,LC,https://mol.org/species/map/Phaeothlypis rivularis,
+Phalacrocorax brasilianus,Neotropic Cormorant,LC,https://mol.org/species/map/Phalacrocorax brasilianus,
+Philydor lichtensteini,Lichtenstein's Foliage-Gleaner,LC,https://mol.org/species/map/Philydor lichtensteini,
+Philydor rufum,Buff-Fronted Foliage-Gleaner,LC,https://mol.org/species/map/Philydor rufum,
+Podager nacunda,Nacunda Nighthawk,LC,https://mol.org/species/map/Podager nacunda,
+Poospiza cinerea,Cinereous Warbling Finch,LC,https://mol.org/species/map/Poospiza cinerea,
+Porphyrospiza caerulescens,Blue Finch,NT,https://mol.org/species/map/Porphyrospiza caerulescens,
+Porzana albicollis,Ash-Throated Crake,LC,https://mol.org/species/map/Porzana albicollis,
+Porzana flaviventer,Yellow-Breasted Crake,LC,https://mol.org/species/map/Porzana flaviventer,
+Pseudoscops clamator,Striped Owl,LC,https://mol.org/species/map/Pseudoscops clamator,
+Ramphocelus bresilia,,LC,https://mol.org/species/map/Ramphocelus bresilia,
+Saltator atricollis,Black-Throated Saltator,LC,https://mol.org/species/map/Saltator atricollis,
+Sterna superciliaris,Amazon Tern,LC,https://mol.org/species/map/Sterna superciliaris,
+Strix huhula,Black-Banded Owl,LC,https://mol.org/species/map/Strix huhula,
+Strix virgata,Mottled Owl,LC,https://mol.org/species/map/Strix virgata,
+Tachyphonus cristatus,Flame-Crested Tanager,LC,https://mol.org/species/map/Tachyphonus cristatus,
+Tangara cayana,Burnished-Buff Tanager,LC,https://mol.org/species/map/Tangara cayana,
+Thryothorus genibarbis,Moustached Wren,LC,https://mol.org/species/map/Thryothorus genibarbis,
+Thryothorus leucotis,Buff-Breasted Wren,LC,https://mol.org/species/map/Thryothorus leucotis,
+Thryothorus longirostris,Long-Billed Wren,LC,https://mol.org/species/map/Thryothorus longirostris,
+Tijuca atra,Black-And-Gold Cotinga,LC,https://mol.org/species/map/Tijuca atra,
+Veniliornis maculifrons,Yellow-Eared Woodpecker,LC,https://mol.org/species/map/Veniliornis maculifrons,
+Veniliornis mixtus,Checkered Woodpecker,LC,https://mol.org/species/map/Veniliornis mixtus,
+Veniliornis passerinus,Little Woodpecker,LC,https://mol.org/species/map/Veniliornis passerinus,
+Xolmis cinereus,Grey Monjita,LC,https://mol.org/species/map/Xolmis cinereus,
+Accipiter erythronemius,Rufous-Thighed Hawk,LC,https://mol.org/species/map/Accipiter erythronemius,
+Amazilia fimbriata,Glittering-Throated Emerald,LC,https://mol.org/species/map/Amazilia fimbriata,
+Amazilia lactea,Sapphire-Spangled Emerald,LC,https://mol.org/species/map/Amazilia lactea,
+Amazilia versicolor,Versicoloured Emerald,LC,https://mol.org/species/map/Amazilia versicolor,
+Anas platyrhynchos (Domestic type),,LC,https://mol.org/species/map/Anas platyrhynchos (Domestic type),
+Anser sp. (Domestic type),,LC,https://mol.org/species/map/Anser sp. (Domestic type),
+Aphantochroa cirrochloris,Sombre Hummingbird,LC,https://mol.org/species/map/Aphantochroa cirrochloris,
+Aramides cajanea,Grey-Necked Wood-Rail,LC,https://mol.org/species/map/Aramides cajanea,
+Aratinga aurea,Peach-Fronted Conure,LC,https://mol.org/species/map/Aratinga aurea,
+Aratinga leucophthalma,White Eyed Parakeet,LC,https://mol.org/species/map/Aratinga leucophthalma,
+Basileuterus hypoleucus,White-Bellied Warbler,LC,https://mol.org/species/map/Basileuterus hypoleucus,
+Basileuterus leucophrys,White-Striped Warbler,LC,https://mol.org/species/map/Basileuterus leucophrys,
+Buteo albicaudatus,White-Tailed Hawk,LC,https://mol.org/species/map/Buteo albicaudatus,
+Buteo leucorrhous,White-Rumped Hawk,LC,https://mol.org/species/map/Buteo leucorrhous,
+Buteo magnirostris,Roadside Hawk,LC,https://mol.org/species/map/Buteo magnirostris,
+Cairina moschata (Domestic type),,LC,https://mol.org/species/map/Cairina moschata (Domestic type),
+Caprimulgus longirostris,Band-Winged Nightjar,LC,https://mol.org/species/map/Caprimulgus longirostris,
+Caprimulgus maculicaudus,Spot Tailed Nightjar,LC,https://mol.org/species/map/Caprimulgus maculicaudus,
+Caprimulgus parvulus,Little Nightjar,LC,https://mol.org/species/map/Caprimulgus parvulus,
+Caprimulgus rufus,St.Lucian Nightjar,LC,https://mol.org/species/map/Caprimulgus rufus,
+Caprimulgus sericocaudatus,Silky-Tailed Nightjar,LC,https://mol.org/species/map/Caprimulgus sericocaudatus,
+Caracara cheriway,Crested Caracara,LC,https://mol.org/species/map/Caracara cheriway,
+Carduelis magellanica,Hooded Siskin,LC,https://mol.org/species/map/Carduelis magellanica,
+Casmerodius albus,Great Egret,LC,https://mol.org/species/map/Casmerodius albus,
