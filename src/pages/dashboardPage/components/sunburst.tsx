@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import * as echarts from "echarts";
 import { Option, } from '../const';
 import styles from '../styles.module.css';
-import Papa from "papaparse";
+// import Papa from "papaparse";
 
 
 export interface SunburstNode {
@@ -19,18 +19,18 @@ const Sunburst: React.FC = () => {
     const chartRef = useRef(null)
 
 
-    async function loadCSV(filePath: string) {
-        const response = await fetch(filePath);  // 前端通过 fetch 读取
-        const csvText = await response.text();
+    // async function loadCSV(filePath: string) {
+    //     const response = await fetch(filePath);  // 前端通过 fetch 读取
+    //     const csvText = await response.text();
 
-        console.log({ csvText })
-        const { data } = Papa.parse(csvText, {
-            header: true,    // 把第一行作为 key
-            skipEmptyLines: true
-        });
+    //     console.log({ csvText })
+    //     const { data } = Papa.parse(csvText, {
+    //         header: true,    // 把第一行作为 key
+    //         skipEmptyLines: true
+    //     });
 
-        return data; // 直接得到 JSON 数组
-    }
+    //     return data; // 直接得到 JSON 数组
+    // }
 
     // const buildSunburstData = async (): Promise<SunburstNode[]> => {
     //     const captureData = await loadCSV('/CaptureCountData.csv')
