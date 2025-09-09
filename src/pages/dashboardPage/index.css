@@ -4,5 +4,5 @@
      position:'absolute';
 }
 .hover-scale:hover {
-  transform: scale(1.05); /* 放大 5% */
+  transform: scale(1.05); 
 }

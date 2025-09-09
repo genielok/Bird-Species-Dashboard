@@ -23,8 +23,6 @@ const BarChart: React.FC<Props> = ({ data, title = "" }) => {
         const xData = data.map(item => item.name);
         const yData = data.map(item => item.value);
 
-        console.log({ yData })
-
         const option: echarts.EChartsOption = {
             ...barBaseOption,
             title: { ...barBaseOption.title, text: title },

@@ -64,7 +64,6 @@ const PieChart: React.FC<PieSpeceisPros> = ({ data, title }) => {
 
         chart.on("click", (params) => {
             const data = params.data as { speceis: string[] } | undefined;
-            console.log({ data })
             data?.speceis && showModal(data?.speceis)
         });
 
