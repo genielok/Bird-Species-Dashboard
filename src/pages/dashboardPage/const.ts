@@ -71,16 +71,19 @@ export function getRandomColor() {
     return color;
 }
 
-export async function loadCSV(filePath: string) {
-    const response = await fetch(filePath);  // 前端通过 fetch 读取
+// CSV to Json
+export async function loadCSV(fileName: string) {
+    const filePath = import.meta.env.BASE_URL + fileName;
+
+    const response = await fetch(filePath);
     const csvText = await response.text();
 
-    const { data } = Papa.parse(csvText, {
-        header: true,    // 把第一行作为 key
-        skipEmptyLines: true
+    const res = Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true,
     });
 
-    return data; // 直接得到 JSON 数组
+    return res.data;
 }
 
 export const Option = {
