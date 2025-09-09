@@ -33,8 +33,8 @@ const DashboardPage: React.FC = () => {
             </div>
             <Row gutter={16}>
                 {
-                    PanelInfoList.map(item =>
-                        <Col span={6}>
+                    PanelInfoList.map((item, index) =>
+                        <Col key={index} span={6}>
                             <InfoCard
                                 count={(item.count).toLocaleString()}
                                 backgroundImg={item.backgroundImg}

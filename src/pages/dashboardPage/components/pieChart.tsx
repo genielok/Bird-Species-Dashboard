@@ -1,45 +1,49 @@
 import React, { useEffect, useRef, useState } from 'react'
 import * as echarts from "echarts";
 import styles from '../styles.module.css';
-import { Modal } from 'antd';
+import { List, Modal, Tag } from 'antd';
 import { basePieOption, colorMap, TIUCNStatus } from '../const';
 
 
 type EChartsOption = echarts.EChartsOption;
 
-interface PieSpeceisPros {
-    title: string,
-    data: {
-        "species": string;
-        "Common Name": string;
-        "Threat Status": string;
-    }[]
+type SpeciesItem = {
+    "species": string
+    "Common Name": string
+    "Threat Status": string
+    "Family": string
+    "Original Map Link": string
+
 }
 
-const PieChart: React.FC<PieSpeceisPros> = ({ data, title }) => {
+interface PiespeciesPros {
+    title: string,
+    data: SpeciesItem[]
+}
+
+const PieChart: React.FC<PiespeciesPros> = ({ data, title }) => {
     const chartRef = useRef(null)
     const [isModalOpen, setIsModalOpen] = useState(false)
-    const [speceisList, setSpeceisList] = useState<String[]>([])
+    const [speciesList, setspeciesList] = useState<SpeciesItem[]>([])
 
 
-    const initPiechart = () => {
+    const initPiechart = (dataList: SpeciesItem[]) => {
         const chart = echarts.init(chartRef.current)
 
-        const grouped = data.reduce((acc, item) => {
+        const grouped = dataList.reduce((acc, item) => {
             const status = item["Threat Status"];
             if (!acc[status]) {
                 acc[status] = {
                     value: 0,
                     name: TIUCNStatus[status],
-                    speceis: [] as string[],
-                    itemStyle: { color: colorMap[status] } // ✅ 在这里固定颜色
-
+                    species: [] as SpeciesItem[],
+                    itemStyle: { color: colorMap[status] },
                 };
             }
             acc[status].value += 1;
-            acc[status].speceis.push(item["species"]);
+            acc[status].species.push(item);
             return acc;
-        }, {} as Record<string, { value: number; name: string; speceis: string[]; itemStyle: { color: string } }>);
+        }, {} as Record<string, { value: number; name: string; species: SpeciesItem[]; itemStyle: { color: string } }>);
 
 
         const pieData = Object.values(grouped);
@@ -63,18 +67,18 @@ const PieChart: React.FC<PieSpeceisPros> = ({ data, title }) => {
         window.addEventListener('resize', handleResize);
 
         chart.on("click", (params) => {
-            const data = params.data as { speceis: string[] } | undefined;
-            data?.speceis && showModal(data?.speceis)
+            const data = (params.data as { species: SpeciesItem[] })?.species
+            data && showModal(data)
         });
 
 
     }
     useEffect(() => {
-        initPiechart()
+        data.length > 0 && initPiechart(data)
     }, [data])
 
-    const showModal = (speceisList: string[]) => {
-        setSpeceisList(speceisList)
+    const showModal = (speciesList: SpeciesItem[]) => {
+        setspeciesList(speciesList)
         setIsModalOpen(true);
     };
 
@@ -90,12 +94,33 @@ const PieChart: React.FC<PieSpeceisPros> = ({ data, title }) => {
     return <>
         <div className={styles.sunburstCard} ref={chartRef} style={{ width: '100%', height: '420px' }}></div>
         <Modal
-            title="Speceis List"
+            title="Species List"
             open={isModalOpen}
             onOk={handleOk}
             onCancel={handleCancel}
         >
-            {speceisList.map(item => <div>{item}</div>)}
+            <List
+                itemLayout="horizontal"
+                dataSource={speciesList}
+                renderItem={(item) => (
+                    <List.Item actions={item['Original Map Link'] ? [<a key="list-loadmore-edit" href={item['Original Map Link']}>more</a>] : undefined}
+                    >
+                        <List.Item.Meta
+                            title={item.species}
+                            description={
+                                <div>
+                                    {item['Common Name'] && <span>Common Name: {item['Common Name']}</span>} <br />
+                                    {
+                                        item.Family && <span>
+                                            Family: <Tag>{item.Family}</Tag>
+                                        </span>
+                                    }
+                                </div>
+                            }
+                        />
+                    </List.Item>
+                )}
+            />
         </Modal>
     </>
 }
