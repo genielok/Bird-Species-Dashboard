@@ -2,15 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Page Not Found</title>
     <meta http-equiv="refresh" content="0; url=/Bird-Species-Dashboard/" />
     <script>
-      (function() {
-        var redirectTo = window.location.protocol + '//' + window.location.host + '/Bird-Species-Dashboard/' + 
-          window.location.pathname.replace('/Bird-Species-Dashboard', '') + 
-          window.location.search + window.location.hash;
-        window.location.replace(redirectTo);
-      })();
+      // 保留原路由信息
+      const path = window.location.pathname.replace('/Bird-Species-Dashboard', '');
+      window.location.href = '/Bird-Species-Dashboard/' + path + window.location.search + window.location.hash;
     </script>
   </head>
   <body></body>
