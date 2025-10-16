@@ -3,21 +3,28 @@ import {
   DashboardOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
+  PieChartOutlined,
 } from '@ant-design/icons';
 import { Button, Layout, Menu, theme, Image, ConfigProvider } from 'antd';
 import './App.css';
-import DashboardPage from './pages/dashboardPage';
 import LogoImg from './assets/logo.png';
-
+import DashboardPage from './pages/dashboardPage';
+import UploadAudioPage from './pages/uploadAudioPage';
+import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 const { Header, Sider, Content } = Layout;
 
-const App: React.FC = () => {
+const AppLayout: React.FC = () => {
   const [collapsed, setCollapsed] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const {
     token: { colorBgContainer },
   } = theme.useToken();
+
 
   return (
     <ConfigProvider
@@ -46,13 +53,18 @@ const App: React.FC = () => {
             className='mt-4'
             theme="light"
             mode="inline"
-            defaultSelectedKeys={['1']}
-
+            onClick={({ key }) => navigate(key)}
+            selectedKeys={[location.pathname]}
             items={[
               {
-                key: '1',
-                icon: <DashboardOutlined />,
+                key: '/dashboard',
+                icon: <PieChartOutlined />,
                 label: 'Dashboard',
+              },
+              {
+                key: '/upload',
+                icon: <DashboardOutlined />,
+                label: 'Analyzation',
               },
             ]}
           />
@@ -76,16 +88,26 @@ const App: React.FC = () => {
               margin: '12px',
               padding: 24,
               minHeight: 280,
-              // borderRadius: borderRadiusLG,
               overflow: 'scroll'
             }}
           >
-            <DashboardPage />
+            <Routes>
+              <Route path="/dashboard" element={<DashboardPage />} />
+              <Route path="/upload" element={<UploadAudioPage />} />
+              <Route path="*" element={<Navigate to="/dashboard" replace />} />
+            </Routes>
           </Content>
         </Layout>
       </Layout>
     </ConfigProvider>
   );
 };
+
+
+const App: React.FC = () => (
+  <Router basename="/Bird-Species-Dashboard">
+    <AppLayout />
+  </Router>
+);
 
 export default App;
