@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, message, Upload, type UploadProps } from 'antd';
+import { Button, message, Upload, type UploadFile, type UploadProps } from 'antd';
 import { InboxOutlined, UploadOutlined } from '@ant-design/icons';
 import { BASE_URL } from '../../utils/api';
 import { analyzeAudioFiles } from '../../utils/analyze';
@@ -10,7 +10,7 @@ const { Dragger } = Upload;
 
 
 const UploadAudioPage: React.FC = () => {
-    const [fileList, setFileList] = useState<any[]>([]);
+    const [fileList, setFileList] = useState<UploadFile[]>([]);
     const [uploading, setUploading] = useState(false);
     const [messageApi, contextHolder] = message.useMessage();
 
@@ -18,8 +18,8 @@ const UploadAudioPage: React.FC = () => {
         name: 'file',
         multiple: true,
         action: `${BASE_URL}/analyze`,
-        beforeUpload: (_, newFiles) => {
-            setFileList(currentList => [...currentList, ...newFiles]);
+        beforeUpload: (file) => {
+            setFileList(currentList => [...currentList, file]);
             return false;
         },
         onRemove: file => {
