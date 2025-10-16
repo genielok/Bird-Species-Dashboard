@@ -6,7 +6,8 @@ interface ApiResponse<T = any> {
     data: T;
 }
 
-export const BASE_URL = "http://127.0.0.1:8000"
+// export const BASE_URL = "http://127.0.0.1:8000"
+export const BASE_URL = "https://birdnet-api-service.onrender.com"
 
 const service: AxiosInstance = axios.create({
     baseURL: BASE_URL || '/api', // The base_url of your API
