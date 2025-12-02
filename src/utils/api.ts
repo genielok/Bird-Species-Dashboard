@@ -6,12 +6,12 @@ interface ApiResponse<T = any> {
     data: T;
 }
 
-// export const BASE_URL = "http://127.0.0.1:8000"
-export const BASE_URL = "https://birdnet-api-service.onrender.com"
+export const BASE_URL = "http://127.0.0.1:8000/api"
+// export const BASE_URL = "https://birdnet-api-service.onrender.com"
 
 const service: AxiosInstance = axios.create({
-    baseURL: BASE_URL || '/api', // The base_url of your API
-    timeout: 10000, // Request timeout in milliseconds
+    baseURL: BASE_URL || '/api',
+    timeout: 10000,
     headers: {
         'Content-Type': 'application/json;charset=utf-8',
     },
@@ -27,7 +27,7 @@ service.interceptors.request.use(
         return config;
     },
     (error) => {
-        console.error('Request Error:', error); // for debug
+        console.error('Request Error:', error);
         return Promise.reject(error);
     }
 );
@@ -36,23 +36,14 @@ service.interceptors.request.use(
 service.interceptors.response.use(
     (response: AxiosResponse<ApiResponse>) => {
         const res = response.data;
-
         if (res.code !== 200) {
-
-            // handle specific error codes for token issues
-            // 50008: Illegal token; 50012: Other clients logged in; 50014: Token expired;
-            if ([50008, 50012, 50014].includes(res.code)) {
-                console.log('Token is invalid, redirecting to login...');
-                // window.location.href = '/login';
-            }
-
             return Promise.reject(new Error(res.message || 'Error'));
         } else {
             return res.data;
         }
     },
     (error) => {
-        console.error('Response Error:', error); // for debug
+        console.error('Response Error:', error);
         return Promise.reject(error);
     }
 );
@@ -63,8 +54,10 @@ service.interceptors.response.use(
  * @param options - Request options including method, url, data, and params
  * @returns Promise<T>
  */
-async function request<T = any>(options: { method: 'get' | 'post'; url: string; data?: object | FormData; params?: object; }): Promise<T> {
+async function request<T = any>(options: { method: 'get' | 'post'; url: string; data?: object | FormData; params?: any; responseType?: 'json' | 'blob'; }): Promise<T> {
     const { method, url, data, params } = options;
+    const responseType = options.responseType || params?.responseType || 'json';
+    if (params?.responseType) delete params.responseType;
 
     const requestOptions: RequestInit = {
         method: method.toUpperCase(),
@@ -72,7 +65,6 @@ async function request<T = any>(options: { method: 'get' | 'post'; url: string; 
 
     let finalUrl = BASE_URL + url;
 
-    // Handle GET request params by converting them to a query string
     if (method === 'get' && params) {
         const query = new URLSearchParams(params as Record<string, string>).toString();
         if (query) {
@@ -80,7 +72,6 @@ async function request<T = any>(options: { method: 'get' | 'post'; url: string; 
         }
     }
 
-    // Handle POST/PUT request body data
     if (data) {
         if (data instanceof FormData) {
             requestOptions.body = data;
@@ -98,6 +89,9 @@ async function request<T = any>(options: { method: 'get' | 'post'; url: string; 
         throw new Error(`Request failed with status ${response.status}`);
     }
 
+    if (responseType === 'blob') {
+        return response.blob() as Promise<T>;
+    }
     return response.json() as Promise<T>;
 }
 
@@ -108,11 +102,12 @@ async function request<T = any>(options: { method: 'get' | 'post'; url: string; 
  * @param params - The request parameters
  * @returns Promise<T>
  */
-export const get = <T = any>(url: string, params?: object): Promise<T> => {
+export const get = <T = any>(url: string, params?: any): Promise<T> => {
     return request<T>({
         method: 'get',
         url,
         params,
+        responseType: params?.responseType,
     });
 };
 

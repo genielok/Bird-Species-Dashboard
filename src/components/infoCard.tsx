@@ -1,6 +1,6 @@
 import { Card, Tooltip } from 'antd';
 import React from 'react';
-import styles from '../styles.module.css';
+import styles from './styles/styles.module.css';
 import {
     QuestionCircleOutlined
 } from '@ant-design/icons';
@@ -9,8 +9,9 @@ interface SvgWithContentProps {
     children?: React.ReactNode;
     backgroundImg: string,
     cardStyles?: React.CSSProperties,
-    count: string
+    count: number
     tooltipText?: string
+    onCardClick?: () => void
 }
 
 const InfoCard: React.FC<SvgWithContentProps> = ({
@@ -19,6 +20,7 @@ const InfoCard: React.FC<SvgWithContentProps> = ({
     count,
     cardStyles,
     tooltipText,
+    onCardClick
 }) => {
 
     return (
@@ -28,6 +30,7 @@ const InfoCard: React.FC<SvgWithContentProps> = ({
                 ...cardStyles,
                 backgroundImage: `url(${backgroundImg})`,
             }}
+            onClick={onCardClick}
         >
             {title}
             {
@@ -36,8 +39,6 @@ const InfoCard: React.FC<SvgWithContentProps> = ({
                     <QuestionCircleOutlined className='ml-2 cursor-pointer' />
                 </Tooltip>
             }
-
-
             <div className={styles.countNum}>
                 {count}
             </div>

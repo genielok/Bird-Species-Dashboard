@@ -10,6 +10,7 @@ import './App.css';
 import LogoImg from './assets/logo.png';
 import DashboardPage from './pages/dashboardPage';
 import UploadAudioPage from './pages/uploadAudioPage';
+import AudioResultsPage from './pages/audioResultsPage';
 import { Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -94,7 +95,8 @@ const AppLayout: React.FC = () => {
             <Routes>
               <Route path="/dashboard" element={<DashboardPage />} />
               <Route path="/upload" element={<UploadAudioPage />} />
-              <Route path="*" element={<Navigate to="/dashboard" replace />} />
+              <Route path="/upload/detail/:sessionId" element={<AudioResultsPage />} />
+              <Route path="*" element={<Navigate to="/upload" replace />} />
             </Routes>
           </Content>
         </Layout>

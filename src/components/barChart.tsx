@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts';
 import { Card } from 'antd';
-import { barBaseOption } from '../const';
 
 interface BarDataItem {
     name: string;
@@ -11,9 +10,10 @@ interface BarDataItem {
 interface Props {
     data: BarDataItem[];
     title?: string;
+    options: echarts.EChartsOption;
 }
 
-const BarChart: React.FC<Props> = ({ data, title = "" }) => {
+const BarChart: React.FC<Props> = ({ data, title = "", options }) => {
     const chartRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -24,12 +24,12 @@ const BarChart: React.FC<Props> = ({ data, title = "" }) => {
         const yData = data.map(item => item.value);
 
         const option: echarts.EChartsOption = {
-            ...barBaseOption,
-            title: { ...barBaseOption.title, text: title },
-            xAxis: { ...barBaseOption.xAxis, data: xData },
+            ...options,
+            title: { ...options?.title, text: title },
+            xAxis: { ...options?.xAxis, data: xData },
             series: [
                 {
-                    ...(barBaseOption.series as any)[0],
+                    ...(options?.series as any)[0],
                     data: yData
                 }
             ]

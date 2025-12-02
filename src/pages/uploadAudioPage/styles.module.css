@@ -1,0 +1,16 @@
+.uploadDraggerWithScroll {
+  padding: 16px;
+}
+
+.uploadDraggerWithScroll :global(.ant-upload-list) {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.uploadDraggerWithScroll :global(.ant-upload) {
+  padding: 16px 16px 8px;
+}
+
+.uploadDraggerWithScroll :global(.ant-upload-list-item) {
+  margin-block: 4px;
+}

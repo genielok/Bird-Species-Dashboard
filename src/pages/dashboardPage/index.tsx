@@ -2,10 +2,9 @@
 import { useEffect, useState } from 'react';
 import { Col, Row } from 'antd'
 
-import InfoCard from './components/infoCard';
-import PieChart from './components/pieChart';
-import BarChart from './components/barChart';
-import { loadCSV, ModelSpeciesData, PanelInfoList } from './const';
+import InfoCard from '../../components/infoCard';
+import BarChart from '../../components/barChart';
+import { loadCSV, ModelSpeciesData, PanelInfoList, barBaseOption, basePieOption } from './const';
 
 // import Sunburst from './components/sunburst';
 
@@ -45,28 +44,21 @@ const DashboardPage: React.FC = () => {
                     )
                 }
                 <Col span={6}>
-                    <BarChart title='Species Captures by 3 Models' data={ModelSpeciesData}></BarChart>
+                    <BarChart options={barBaseOption} title='Species Captures by 3 Models' data={ModelSpeciesData}></BarChart>
                 </Col>
 
             </Row>
             <div className={styles.subTitle}>
-                Statistic
+                IUCN Status
             </div>
             <Row gutter={16}>
-                <Col span={12}>
-                    <PieChart data={L1Data} title='Species(≥1 Model)'></PieChart>
+                {/* <Col span={12}>
+                    <PieChart options={basePieOption} data={L1Data} title='Species(≥1 Model)'></PieChart>
                 </Col>
                 <Col span={12}>
-                    <PieChart data={L3Data} title='Species(≥2 Model)'></PieChart>
-                </Col>
+                    <PieChart options={basePieOption} data={L3Data} title='Species(≥2 Model)'></PieChart>
+                </Col> */}
             </Row>
-            {/* <Row>
-                <div className={styles.subTitle}>
-                    Total pattern captures
-                </div>
-                <Sunburst></Sunburst>
-            </Row> */}
-
         </div >
     )
 }
