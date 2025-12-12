@@ -1,127 +1,211 @@
-import React, { useState } from 'react'
-import { InboxOutlined, UploadOutlined } from '@ant-design/icons';
-import { Form, Input, message, Modal, Upload, type UploadFile, type UploadProps } from 'antd';
-import { getPresignedUrl, startAnalysis, uploadFileToS3 } from '../../utils/analyze';
-import styles from './styles.module.css'
+import React, { useState, useRef } from 'react';
+import { InboxOutlined, CloudUploadOutlined, FileTextOutlined } from '@ant-design/icons';
+import { Form, Input, message, Upload, Button, Card, Typography, Progress, Alert } from 'antd';
+import type { UploadProps } from 'antd';
+import { uploadData } from 'aws-amplify/storage';
+import pLimit from 'p-limit';
+import styles from './styles.module.css';
+
 const { Dragger } = Upload;
+const { Title, Text } = Typography;
 
 interface Props {
-    isOpen: boolean,
-    handleClose: () => void;
+    onUploadSuccess?: () => void;
 }
 
-type FieldType = {
-    projectName?: string;
-};
-
-const UploadForm: React.FC<Props> = ({ isOpen, handleClose }) => {
+const UploadForm: React.FC<Props> = ({ onUploadSuccess }) => {
     const [uploading, setUploading] = useState(false);
-    const [fileList, setFileList] = useState<UploadFile[]>([]);
+    const [rawFiles, setRawFiles] = useState<File[]>([]);
+
+    const [progress, setProgress] = useState({ total: 0, current: 0, percent: 0 });
     const [messageApi, contextHolder] = message.useMessage();
     const [uploadForm] = Form.useForm();
 
-    const handleSuccess = () => {
-        onClose()
+    // WakeLock 引用 (防止屏幕休眠)
+    const wakeLockRef = useRef<any>(null);
+
+    // 请求屏幕常亮
+    const requestWakeLock = async () => {
+        try {
+            if ('wakeLock' in navigator) {
+                wakeLockRef.current = await (navigator as any).wakeLock.request('screen');
+                console.log('Screen Wake Lock active');
+            }
+        } catch (err) {
+            console.warn('Wake Lock failed:', err);
+        }
+    };
+
+    const releaseWakeLock = () => {
+        if (wakeLockRef.current) {
+            wakeLockRef.current.release();
+            wakeLockRef.current = null;
+        }
+    };
+
+    const handleSuccess = (count: number) => {
         messageApi.open({
             type: 'success',
-            content: 'File(s) uploaded successfully, please reload the analysis records.',
+            content: `Done! ${count} files uploaded. Analysis starting...`,
+            duration: 10,
         });
+        setRawFiles([]);
+        setProgress({ total: 0, current: 0, percent: 0 });
+        uploadForm.resetFields();
+        releaseWakeLock();
+        if (onUploadSuccess) onUploadSuccess();
     };
-
-    const onClose = () => {
-        setFileList([])
-        uploadForm.resetFields()
-        handleClose()
-    }
 
     const props: UploadProps = {
-        accept: "audio/*",
+        accept: ".wav,audio/wav",
         name: 'file',
         multiple: true,
-        beforeUpload: () => false,
-        onChange: ({ fileList }) => setFileList(fileList),
-        onRemove: file => {
-            const index = fileList.indexOf(file);
-            const newFileList = fileList.slice();
-            newFileList.splice(index, 1);
-            setFileList(newFileList);
+        directory: true,
+        showUploadList: false,
+        beforeUpload: (file) => {
+            setRawFiles(prev => [...prev, file]);
+            return false;
         },
-        fileList,
-
-    };
-
-    const normFile = (e: any) => {
-        if (Array.isArray(e)) {
-            return e;
-        }
-        return e?.fileList;
+        fileList: [],
     };
 
     const handleUpload = async () => {
         try {
-            const values = await uploadForm.validateFields()
-            setUploading(true)
-            const files = fileList.map(f => ({
-                filename: f.name,
-                contentType: f.type,
-            }));
-            const data = await getPresignedUrl(values.projectName, files)
-            await uploadFileToS3(data, fileList)
-            const s3Keys = data.urls.map((u: { s3_key: string; }) => u.s3_key)
-            await startAnalysis(s3Keys, values.projectName)
-            handleSuccess()
-        } catch (error) {
-            console.log(error)
+            const values = await uploadForm.validateFields();
+
+            const validFiles = rawFiles.filter(f => f.name.toLowerCase().endsWith('.wav'));
+            if (validFiles.length === 0) throw new Error("No .wav files selected.");
+
+            setUploading(true);
+            await requestWakeLock(); // in case of long upload
+
+            const total = validFiles.length;
+            let completed = 0;
+            setProgress({ total, current: 0, percent: 0 });
+
+            // parallel limit
+            const limit = pLimit(5);
+
+            console.log(`Starting massive upload: ${total} files...`);
+
+            const uploadTasks = validFiles.map((file) => {
+                return limit(async () => {
+                    const s3Path = `public/raw_uploads/${values.projectName}/audio/${file.name}`;
+                    try {
+                        await uploadData({
+                            path: s3Path,
+                            data: file,
+                        }).result;
+
+                        completed++;
+                        setProgress({
+                            total,
+                            current: completed,
+                            percent: Math.round((completed / total) * 100)
+                        });
+
+                        return s3Path;
+                    } catch (err) {
+                        console.error(`Failed: ${file.name}`, err);
+                        return null;
+                    }
+                });
+            });
+
+            const results = await Promise.all(uploadTasks);
+            const successfulKeys = results.filter((k): k is string => k !== null);
+
+            if (successfulKeys.length === 0) throw new Error("All uploads failed.");
+
+            const manifestPath = `public/raw_uploads/${values.projectName}/manifest.json`;
+            await uploadData({
+                path: manifestPath,
+                data: JSON.stringify({
+                    project_name: values.projectName,
+                    timestamp: new Date().toISOString(),
+                    file_count: successfulKeys.length,
+                    audio_files: successfulKeys,
+                    status: "uploaded_complete"
+                }),
+                options: { contentType: 'application/json' }
+            }).result;
+
+            handleSuccess(successfulKeys.length);
+
+        } catch (error: any) {
+            console.error(error);
+            messageApi.error(error.message || "Upload failed.");
+            releaseWakeLock();
+        } finally {
+            setUploading(false);
         }
-        setUploading(false);
     };
 
     return (
-        <div>{contextHolder}
-            <Modal
-                centered
-                onCancel={onClose}
-                title={'Create Audio analyzation project'}
-                open={isOpen} onOk={handleUpload}
-                okText={uploading ? 'Uploading...' : 'Start Upload'}
-                okButtonProps={{
-                    loading: uploading,
-                    style: { marginTop: 16 },
-                    icon: <UploadOutlined />
-                }}
-            >
-                <Form form={uploadForm} name="uploadForm" >
-                    <Form.Item<FieldType>
+        <div style={{ maxWidth: '800px', margin: '0 auto', padding: '24px' }}>
+            {contextHolder}
+            <Card className={styles.uploadCard}>
+                <div style={{ marginBottom: 24, textAlign: 'center' }}>
+                    <Title level={2}>Audio Files Upload</Title>
+                </div>
+
+                <Form form={uploadForm} layout="vertical" onFinish={handleUpload}>
+                    <Form.Item
                         label="Project Name"
                         name="projectName"
-                        rules={[{ required: true, message: 'Please input project name' }]}
+                        rules={[{ required: true, message: 'Required' }, { pattern: /^[a-zA-Z0-9_-]+$/, message: 'Invalid format' }]}
                     >
-                        <Input />
-                    </Form.Item>
-                    <Form.Item
-                        rules={[{ required: true, message: 'Please select a file to upload.' }]}
-                        name="files"
-                        valuePropName="fileList"
-                        getValueFromEvent={normFile}
-                    >
-                        <Dragger
-                            name="files"
-                            {...props}
-                            className={styles.uploadDraggerWithScroll}
-                        >
-                            <p className="ant-upload-drag-icon">
-                                <InboxOutlined />
-                            </p>
-                            <p className="ant-upload-text">
-                                Click or drag audio file(s) to this area to upload
-                            </p>
-                            <p className="ant-upload-hint"></p>
-                        </Dragger>
+                        <Input prefix={<FileTextOutlined />} placeholder="e.g. Amazon_50GB_Batch1" />
                     </Form.Item>
 
+                    <div style={{ marginBottom: 24 }}>
+                        <Dragger {...props} height={200}>
+                            <p className="ant-upload-drag-icon"><InboxOutlined /></p>
+                            <p className="ant-upload-text">Drag audio folder here</p>
+                            <p className="ant-upload-hint">
+                                Selected: {rawFiles.length} files
+                            </p>
+                        </Dragger>
+                    </div>
+
+                    {/* processbar */}
+                    {uploading && (
+                        <div style={{ marginBottom: 24 }}>
+                            <Alert
+                                message="Do not close this tab!"
+                                description="Uploading huge dataset. Screen wake lock actsive."
+                                type="warning"
+                                showIcon
+                            />
+                            <div style={{ marginTop: 16 }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
+                                    <Text strong>Uploading...</Text>
+                                    <Text>{progress.current} / {progress.total} files</Text>
+                                </div>
+                                <Progress
+                                    percent={progress.percent}
+                                    status="active"
+                                    strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }}
+                                />
+                            </div>
+                        </div>
+                    )}
+
+                    <Button
+                        type="primary"
+                        htmlType="submit"
+                        size="large"
+                        block
+                        loading={uploading}
+                        disabled={rawFiles.length === 0}
+                        icon={<CloudUploadOutlined />}
+                    >
+                        {uploading ? 'Processing...' : `Start Upload (${rawFiles.length} files)`}
+                    </Button>
                 </Form>
-            </Modal>
-        </div >
-    )
-}
-export default UploadForm
+            </Card>
+        </div>
+    );
+};
+
+export default UploadForm;

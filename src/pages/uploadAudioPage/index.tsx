@@ -1,21 +1,18 @@
-import { Button, DatePicker, Form, Input, Table, Typography, type TableProps } from 'antd'
-import { useEffect, useMemo, useState } from 'react'
+import { Button, DatePicker, Form, Input, Table, Tabs, Typography, type TableProps, type TabsProps } from 'antd'
+import { use, useEffect, useMemo, useState } from 'react'
 import { delay, downloadBlobFile, getAnalyzeList, getAudioResults, type Detection, type TSearchParams } from '../../utils/analyze';
 import { columns, type AnalyzeDataType } from './const.tsx';
-import { HistoryOutlined, SyncOutlined } from '@ant-design/icons';
+import { HistoryOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
 import UploadForm from './uploadForm';
 
-const { Title } = Typography;
 const { RangePicker } = DatePicker;
-
-
 export default function AnalyzeList() {
     const [dataList, setDataList] = useState<AnalyzeDataType[]>([])
     const [historyLoading, setHistoryLoading] = useState(true);
     const [recordForm] = Form.useForm<{ projectName: string, timeRange: any[] }>()
     const [searchParams, setSearchParams] = useState<TSearchParams>()
-    const [isOpen, setIsOpen] = useState(false)
+    const [curTab, setCurTab] = useState(1)
     const navigate = useNavigate()
 
     const getData = async (params?: TSearchParams) => {
@@ -28,10 +25,6 @@ export default function AnalyzeList() {
             console.log(error)
         }
         setHistoryLoading(false)
-    }
-
-    const handleOpenCreateModal = () => {
-        setIsOpen(true)
     }
 
     const handleSearch = async () => {
@@ -70,7 +63,6 @@ export default function AnalyzeList() {
         }
     };
 
-
     const curColums: TableProps<AnalyzeDataType>['columns'] = useMemo(() => {
         const col = columns || []
         return [
@@ -92,23 +84,8 @@ export default function AnalyzeList() {
         ]
     }, [columns])
 
-    useEffect(() => {
-        getData()
-    }, []);
-
-    return (
-        <div>
-            <Title level={4} style={{ margin: 0 }}><HistoryOutlined style={{ marginRight: 8 }} /> Historical analysis records</Title>
-            <div className='mt-4 mb-4' style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <Button type='primary' onClick={handleOpenCreateModal}>Create Project</Button>
-                <Button
-                    onClick={() => getData(searchParams)}
-                    loading={historyLoading}
-                    icon={<SyncOutlined />}
-                >
-                    Reload
-                </Button>
-            </div>
+    const RecordContent = useMemo(() => (
+        <>
             <Form className='flex' form={recordForm}>
                 <Form.Item className='flex-1' style={{ marginRight: 8 }}
                     label="Project Name" name="projectName">
@@ -134,8 +111,45 @@ export default function AnalyzeList() {
                 dataSource={dataList}
                 loading={historyLoading}
             />
-            <UploadForm isOpen={isOpen} handleClose={() => setIsOpen(false)}></UploadForm>
+        </>
+    ), [dataList, historyLoading, curColums, recordForm]);
 
-        </div>
+    const handleUploadSuccess = () => {
+        getData()
+    }
+
+    const items: TabsProps['items'] = [
+        {
+            key: '1',
+            label: 'Upload',
+            children:
+                <UploadForm onUploadSuccess={handleUploadSuccess} />
+        },
+        {
+            key: '2',
+            label: 'Record',
+            children: RecordContent,
+        }
+    ];
+
+    const operations = useMemo(() => {
+        if (curTab === 2) {
+            return <Button icon={<HistoryOutlined />} onClick={() => getData(searchParams)}>Reload</Button>;
+        }
+    }, [curTab])
+
+    useEffect(() => {
+        getData()
+    }, []);
+
+    return (
+        <Tabs
+            tabBarExtraContent={operations}
+            defaultActiveKey="1"
+            items={items}
+            onChange={(key) => {
+                setCurTab(Number(key))
+            }}
+        />
     )
 }

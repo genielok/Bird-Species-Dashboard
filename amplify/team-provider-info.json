@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-birdspeciesdashboard-dev-f84cd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::786635977109:role/amplify-birdspeciesdashboard-dev-f84cd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::786635977109:role/amplify-birdspeciesdashboard-dev-f84cd-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-birdspeciesdashboard-dev-f84cd-deployment",
+      "UnauthRoleName": "amplify-birdspeciesdashboard-dev-f84cd-unauthRole",
+      "StackName": "amplify-birdspeciesdashboard-dev-f84cd",
+      "StackId": "arn:aws:cloudformation:eu-north-1:786635977109:stack/amplify-birdspeciesdashboard-dev-f84cd/3873cc20-d1ee-11f0-a5fa-06e076cec32d",
+      "AmplifyAppId": "d1ijc77ay2j509"
+    },
+    "categories": {
+      "auth": {
+        "birdspeciesdashboard6bb3577e": {}
+      },
+      "storage": {
+        "AcousticTool": {}
+      }
+    }
+  }
+}
